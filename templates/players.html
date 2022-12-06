@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fantasy Football</title>
+    </head>
+    <header>
+        <h1>NFL Football Players</h1>
+    </header>
+    <br>
+    <style>table, th ,td {border:1px solid black}</style>
+    <body>
+        {% if players != [] %}
+            <table>
+                <tr>
+                    <th>Player</th>    
+                    <th>Team</th> 
+                    <th>Position</th>
+                </tr>
+                {% for row in players: %}
+                    <tr>
+                        <td><a href="details?player_id={{row.get_player_id()}}&player={{row.get_player()}}">{{row.get_player()}}</a></td>
+                        <td>{{row.get_team()}}</td>
+                        <td>{{row.get_pos()}}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        {% endif %}
+        <br>
+        <br>
+        <br>
+    </body>
+    <footer>
+        {% include 'footer.html' %}
+    </footer>
+</html>
