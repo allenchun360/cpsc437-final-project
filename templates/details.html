@@ -3,15 +3,19 @@
     <head>
         <title>Player Stats</title>
      </head>
-     <header>
-        <h1>Player Stats for {{player}}</h1>
-    </header>
+
     <br>
     <style>table, th ,td {border:1px solid black}</style>
     <body>
+        {% if player %}
+        <header>
+            <h1>Player Stats for {{player}}</h1>
+        </header>
+        <img src="https://www.pro-football-reference.com/req/20180910/images/headshots/{{player_id}}_2022.jpg">
         <table>
             <tr>
                 <th>week</th>
+                <th>standard score</th>
                 <th>pass_cmp</th> 
                 <th>pass_att</th>
                 <th>pass_yds</th>
@@ -56,6 +60,7 @@
             {% for week in weeks: %}
                 <tr>
                     <td>{{week.get_week()}}</td>
+                    <td>{{week.week_standard_score()}}</td>
                     <td>{{week.get_pass_cmp()}}</td>
                     <td>{{week.get_pass_att()}}</td>
                     <td>{{week.get_pass_yds()}}</td>
@@ -99,6 +104,55 @@
                 </tr>
             {% endfor %}
         </table>
+        {% endif %}
+        
+        {% if kicker %}
+        <header>
+            <h1>Player Stats for {{kicker}}</h1>
+        </header>
+        <img src={{photo}}>
+        <table>
+            <tr>
+                <th>week</th>
+                <th>standard score</th>
+                <th>Off_abbrev</th>
+                <th>Def_abbrev</th>
+                <th>fga</th>
+                <th>fgm</th>
+                <th>xpa</th>
+                <th>xpm</th>
+                <th>fga_0_39</th>
+                <th>fgm_0_39</th>
+                <th>fga_40_49</th>
+                <th>fgm_40_49</th>
+                <th>fga_50</th>
+                <th>fgm_50</th>
+                <th>vis_team</th>
+                <th>home_team</th>
+            </tr>
+            {% for week in kickers_weeks: %}
+                <tr>
+                    <td>{{week.get_week()}}</td>
+                    <td>{{week.week_standard_score()}}</td>
+                    <td>{{week.get_Off_abbrev()}}</td>
+                    <td>{{week.get_Def_abbrev()}}</td>
+                    <td>{{week.get_fga()}}</td>
+                    <td>{{week.get_fgm()}}</td>
+                    <td>{{week.get_xpa()}}</td>
+                    <td>{{week.get_xpm()}}</td>
+                    <td>{{week.get_fga_0_39()}}</td>
+                    <td>{{week.get_fgm_0_39()}}</td>
+                    <td>{{week.get_fga_40_49()}}</td>
+                    <td>{{week.get_fgm_40_49()}}</td>
+                    <td>{{week.get_fga_50()}}</td>
+                    <td>{{week.get_fgm_50()}}</td>
+                    <td>{{week.get_vis_team()}}</td>
+                    <td>{{week.get_home_team()}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        {% endif %}
+
         <br>
         <a href="/">Back to all players</a>
         <br>

@@ -2,34 +2,237 @@
 <html>
     <head>
         <title>Fantasy Football</title>
+        <link href="/static/css/players.css" rel="stylesheet" type="text/css" media="all">
     </head>
     <header>
         <h1>NFL Football Players</h1>
     </header>
-    <br>
     <style>table, th ,td {border:1px solid black}</style>
     <body>
-        {% if players != [] %}
+    <div class="float-child-element">
+        <div class="table">
+            {% if qbs != [] %}
             <table>
                 <tr>
-                    <th>Player</th>    
+                    <th>Quarterbacks</th>    
                     <th>Team</th> 
-                    <th>Position</th>
+                    <th>Projected Standard Score</th>
                 </tr>
-                {% for row in players: %}
+                {% for row in qbs: %}
                     <tr>
-                        <td><a href="details?player_id={{row.get_player_id()}}&player={{row.get_player()}}">{{row.get_player()}}</a></td>
+                        <td>
+                            <img src="https://www.pro-football-reference.com/req/20180910/images/headshots/{{row.get_player_id()}}_2022.jpg">
+                            <a href="details?player_id={{row.get_player_id()}}&player={{row.get_player()}}">{{row.get_player()}}</a>
+                        </td>
                         <td>{{row.get_team()}}</td>
-                        <td>{{row.get_pos()}}</td>
+                        <td>{{row.get_average_standard_score()}}</td>
                     </tr>
                 {% endfor %}
             </table>
-        {% endif %}
+            {% endif %}
+        </div>
+
+        <div class="table">
+            {% if rbs != [] %}
+            <table>
+                <tr>
+                    <th>Running Backs</th>    
+                    <th>Team</th> 
+                    <th>Projected Standard Score</th>
+                </tr>
+                {% for row in rbs: %}
+                    <tr>
+                        <td>
+                            <img src="https://www.pro-football-reference.com/req/20180910/images/headshots/{{row.get_player_id()}}_2022.jpg">
+                            <a href="details?player_id={{row.get_player_id()}}&player={{row.get_player()}}">{{row.get_player()}}</a>
+                        </td>
+                        <td>{{row.get_team()}}</td>
+                        <td>{{row.get_average_standard_score()}}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+            {% endif %}
+        </div>
+
+        <div class="table">
+            {% if wrs != [] %}
+            <table>
+                <tr>
+                    <th>Wide Receivers</th>    
+                    <th>Team</th> 
+                    <th>Projected Standard Score</th>
+                </tr>
+                {% for row in wrs: %}
+                    <tr>
+                        <td>
+                            <img src="https://www.pro-football-reference.com/req/20180910/images/headshots/{{row.get_player_id()}}_2022.jpg">
+                            <a href="details?player_id={{row.get_player_id()}}&player={{row.get_player()}}">{{row.get_player()}}</a>
+                        </td>
+                        <td>{{row.get_team()}}</td>
+                        <td>{{row.get_average_standard_score()}}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+            {% endif %}
+        </div>
+
+        <div class="table">
+            {% if tes != [] %}
+            <table>
+                <tr>
+                    <th>Tight Ends</th>    
+                    <th>Team</th> 
+                    <th>Projected Standard Score</th>
+                </tr>
+                {% for row in tes: %}
+                    <tr>
+                        <td>
+                            <img src="https://www.pro-football-reference.com/req/20180910/images/headshots/{{row.get_player_id()}}_2022.jpg">
+                            <a href="details?player_id={{row.get_player_id()}}&player={{row.get_player()}}">{{row.get_player()}}</a>
+                        </td>
+                        <td>{{row.get_team()}}</td>
+                        <td>{{row.get_average_standard_score()}}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+            {% endif %}
+        </div>
+
+        <div class="table">
+            {% if kickers != [] %}
+                <table>
+                    <tr>
+                        <th>Kicker</th>    
+                        <th>Team</th>
+                        <th>Projected Standard Score</th> 
+                    </tr>
+                    {% for row in kickers: %}
+                        <tr>
+                            <td>
+                                <img src={{row.get_photo()}}>
+                                <a href="details?kicker={{row.get_player()}}&photo={{row.get_photo()}}">{{row.get_player()}}</a>
+                            </td>
+                            <td>{{row.get_Off_abbrev()}}</td>
+                            <td>{{row.get_average_standard_score()}}</td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            {% endif %}
+        </div>
+    </div>
         <br>
         <br>
-        <br>
+        <!-- <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+
+            var url1 = $('#profilepic1').attr("src");
+            var url2 = $('#profilepic2').attr("src");
+            var url3 = $('#profilepic3').attr("src");
+            var url4 = $('#profilepic4').attr("src");
+            var player_id1 = $('#player_id1').text()
+            var player_id2 = $('#player_id2').text()
+            var player_id3 = $('#player_id3').text()
+            var player_id4 = $('#player_id4').text()
+            // alert(player_id3)
+            // alert(url3)
+            // console.log("hello")
+            
+
+            function UrlExists1(url) {
+                // url = "https://www.pro-football-reference.com/req/20180910/images/headshots/DiggSt00_2022.jpg"
+                var http = new XMLHttpRequest();
+                http.open('HEAD', url, true);
+                http.send();
+                if (http.status != 404) {
+                    console.log("hello")
+                    // alert("herer")
+                    $('#profilepic3').attr("src", "https://www.pro-football-reference.com/req/20180910/images/headshots/" + player_id3 + "_2020.jpg")
+                    return true;
+                }
+                else {
+                    // alert("herer")
+                    $('#profilepic3').attr("src", "https://www.pro-football-reference.com/req/20180910/images/headshots/" + player_id3 + "_2020.jpg")
+                    console.log("hello")
+                    // alert("herer")
+                    return false;
+                }
+                }
+            
+            // function UrlExists2(url) {
+            //     var http = new XMLHttpRequest();
+            //     http.open('HEAD', url, false);
+            //     http.send();
+            //     if (http.status != 404) {
+            //         // alert("herer2")
+            //         console.log("hello")
+            //         $('#profilepic2').attr("src", "https://www.pro-football-reference.com/req/20180910/images/headshots/" + player_id2 + "_2020.jpg")
+            //         return true;
+            //     }
+            //     else {
+            //         alert("herer")
+            //         $('#profilepic2').attr("src", "https://www.pro-football-reference.com/req/20180910/images/headshots/" + player_id2 + "_2020.jpg")
+            //         console.log("hello")
+            //         // alert("herer")
+            //         return false;
+            //     }
+            //     }
+
+            function UrlExists3(url) {
+
+                var http = new XMLHttpRequest();
+                http.open('HEAD', url, false);
+                // alert("test2")
+                http.send();
+                alert("hre3")
+                if (http.status != 404) {
+                    console.log("hello")
+                    $('#profilepic3').attr("src", "https://www.pro-football-reference.com/req/20180910/images/headshots/" + player_id3 + "_2020.jpg")
+                    return true;
+                }
+                else {
+                    alert("herer")
+                    $('#profilepic3').attr("src", "https://www.pro-football-reference.com/req/20180910/images/headshots/" + player_id3 + "_2020.jpg")
+                    console.log("hello")
+                    // alert("herer")
+                    return false;
+                }
+                }
+
+            function UrlExists4(url) {
+                var http = new XMLHttpRequest();
+                http.open('HEAD', url, false);
+                http.send();
+                if (http.status != 404) {
+                    console.log("hello")
+                    $('#profilepic4').attr("src", "https://www.pro-football-reference.com/req/20180910/images/headshots/" + player_id4 + "_2020.jpg")
+                    return true;
+                }
+                else {
+                    alert("herer")
+                    $('#profilepic4').attr("src", "https://www.pro-football-reference.com/req/20180910/images/headshots/" + player_id4 + "_2020.jpg")
+                    console.log("hello")
+                    // alert("herer")
+                    return false;
+                }
+                }
+
+            // UrlExists1("https://www.pro-football-reference.com/req/20180910/images/headshots/DiggSt00_2022.jpg")
+
+            function setup() {
+            // getAmPm();
+            // window.setInterval(getAmPm, 1000);
+                UrlExists1(url3);
+                // UrlExists2(url2);
+                // UrlExists3(url3);
+                // UrlExists4(url4);
+                // var value = UrlExists1("https://www.pro-football-reference.com/req/20180910/images/headshots/DiggSt00_2022.jpg")
+            }
+
+                $('document').ready(setup);
+            
+        </script> -->
     </body>
-    <footer>
+    <footer class="footer">
         {% include 'footer.html' %}
     </footer>
 </html>

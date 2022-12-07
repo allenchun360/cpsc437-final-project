@@ -49,3 +49,48 @@ with open('offense_cleaned.csv', 'r') as csv_file:
     except sqlite3.DatabaseError:
         print("database error: could not be found or corrupted")
         exit(1)
+
+
+with open('kicking_players_cleaned.csv', 'r') as csv_file:
+    reader = csv.reader(csv_file)
+    # print(reader[0])
+
+    try:
+        with sqlite3.connect(DATABASE_URL, isolation_level=None,
+                                uri=True) as connection:
+            with closing(connection.cursor()) as cursor:
+                count = 0
+                for row in reader:
+                    if count != 0:
+                        query = "INSERT INTO kickers (player, Off_abbrev, photo) VALUES (?, ?, ?)"
+                        cursor.execute(query, [row[0], row[1], row[2]])
+                    count += 1
+
+    except sqlite3.OperationalError as ex:
+        print(ex)
+        exit(1)
+    except sqlite3.DatabaseError:
+        print("database error: could not be found or corrupted")
+        exit(1)
+
+with open('kicking_cleaned.csv', 'r') as csv_file:
+    reader = csv.reader(csv_file)
+    # print(reader[0])
+
+    try:
+        with sqlite3.connect(DATABASE_URL, isolation_level=None,
+                                uri=True) as connection:
+            with closing(connection.cursor()) as cursor:
+                count = 0
+                for row in reader:
+                    if count != 0:
+                        query = "INSERT INTO kickers_players_weeks ('Off_abbrev', 'Def_abbrev', 'fga', 'fgm', 'xpa', 'xpm', 'fga_0_39', 'fgm_0_39', 'fga_40_49', 'fgm_40_49', 'fga_50', 'fgm_50', 'player', 'vis_team', 'home_team', 'week') VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+                        cursor.execute(query, [row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], row[9], row[10], row[11], row[12], row[13], row[14], row[15]])
+                    count += 1
+
+    except sqlite3.OperationalError:
+        print("table not found")
+        exit(1)
+    except sqlite3.DatabaseError:
+        print("database error: could not be found or corrupted")
+        exit(1)

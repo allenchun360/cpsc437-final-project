@@ -1,12 +1,21 @@
-body {
-    margin: 0;
-    padding: 0;
-
-    background: white;
+.everythingOnOneLine * {
+    /* display: flex; */
+    /* flex-direction: row; */
+    display: inline-block;
 }
 
+.float-child-element { 
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+} 
 
-.user_list {
+.table {
+    margin: 20px 
+}
+    
+
+/* .user_list {
     border-radius: 5px;
     border: 2px solid black;
 }
@@ -186,7 +195,7 @@ th:last-child {
 /* table tbody tr:hover {
     background-color: gray;
 } */
-
+/* 
 .add-friend-button {
     box-sizing: border-box;
     flex-direction: row;
@@ -210,4 +219,4 @@ th:last-child {
     text-align: center;
     letter-spacing: 0.41px;
     color: #404040;
-}
+} */

@@ -66,3 +66,29 @@
 
     FOREIGN KEY (player_id) references players(player_id)
 );
+
+    create table kickers (
+    player text primary key,
+    Off_abbrev text not null,
+    photo image not null
+);
+
+    create table kickers_players_weeks (
+    player text not null,
+    Off_abbrev text not null,
+    Def_abbrev text not null,
+    fga integer not null,
+    fgm integer not null,
+    xpa integer not null,
+    xpm integer not null,
+    fga_0_39 integer not null,
+    fgm_0_39 integer not null,
+    fga_40_49 integer not null,
+    fgm_40_49 integer not null,
+    fga_50 integer not null,
+    fgm_50 integer not null,
+    vis_team text not null,
+    home_team text not null,
+    week integer not null,
+    FOREIGN KEY (player) references kickers(player)
+);
