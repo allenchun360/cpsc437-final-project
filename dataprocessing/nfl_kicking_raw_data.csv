@@ -1,0 +1,359 @@
+"game_id","Off_abbrev","Def_abbrev","fga","fgm","xpa","xpm","fga_0_39","fgm_0_39","fga_40_49","fgm_40_49","fga_50","fgm_50","player","Total_DKP","Total_FDP","Total_SDP","vis_team","home_team","vis_score","home_score","OT","Roof","Surface","Temperature","Humidity","Wind_Speed","Vegas_Line","Vegas_Favorite","Over_Under","game_date"
+"202209080ram","BUF","LAR",1,1,4,4,0,0,0,0,0,0,"Tyler Bass",4,4,4,"BUF","LAR",31,10,"False","dome","matrixturf",72,45,0,-2.5,"BUF",52,2022-09-08
+"202209080ram","LAR","BUF",1,1,1,1,0,0,0,0,1,1,"Matt Gay",6,6,6,"BUF","LAR",31,10,"False","dome","matrixturf",72,45,0,-2.5,"BUF",52,2022-09-08
+"202209110atl","ATL","NOR",5,4,2,2,1,1,1,1,3,2,"Younghoe Koo",19,19,19,"NOR","ATL",27,26,"False","retractable roof (closed)","fieldturf",72,45,0,-5.5,"NOR",43.5,2022-09-11
+"202209110atl","NOR","ATL",3,2,1,1,0,0,2,1,1,1,"Wil Lutz",10,10,10,"NOR","ATL",27,26,"False","retractable roof (closed)","fieldturf",72,45,0,-5.5,"NOR",43.5,2022-09-11
+"202209110car","CAR","CLE",1,1,3,3,1,1,0,0,0,0,"Eddy Pineiro",6,6,6,"CLE","CAR",26,24,"False","outdoors","grass ",72,45,0,-1.5,"CAR",42,2022-09-11
+"202209110car","CLE","CAR",4,4,2,2,3,3,0,0,1,1,"Cade York",16,16,16,"CLE","CAR",26,24,"False","outdoors","grass ",72,45,0,-1.5,"CAR",42,2022-09-11
+"202209110chi","SFO","CHI",1,1,1,1,1,1,0,0,0,0,"Robbie Gould",4,4,4,"SFO","CHI",10,19,"False","outdoors","grass ",72,45,0,-6,"SFO",38,2022-09-11
+"202209110chi","0","0",0,0,3,1,0,0,0,0,0,0,"Cairo Santos",1,1,1,"SFO","CHI",10,19,"False","outdoors","grass ",72,45,0,-6,"SFO",38,2022-09-11
+"202209110cin","CIN","PIT",3,2,1,0,2,1,0,0,1,1,"Evan McPherson",8,8,8,"PIT","CIN",23,20,"True","outdoors","fieldturf ",72,45,0,-7,"CIN",44,2022-09-11
+"202209110cin","PIT","CIN",4,3,2,2,1,1,1,1,2,1,"Chris Boswell",14,14,14,"PIT","CIN",23,20,"True","outdoors","fieldturf ",72,45,0,-7,"CIN",44,2022-09-11
+"202209110crd","KAN","ARI",1,1,4,4,0,0,0,0,0,0,"Harrison Butker",4,4,4,"KAN","ARI",44,21,"False","retractable roof (closed)","grass ",72,45,0,-6.5,"KAN",54,2022-09-11
+"202209110crd","0","0",0,0,1,1,0,0,0,0,0,0,"Matt Prater",1,1,1,"KAN","ARI",44,21,"False","retractable roof (closed)","grass ",72,45,0,-6.5,"KAN",54,2022-09-11
+"202209110crd","0","0",0,0,2,1,0,0,0,0,0,0,"Justin Reid",1,1,1,"KAN","ARI",44,21,"False","retractable roof (closed)","grass ",72,45,0,-6.5,"KAN",54,2022-09-11
+"202209110dal","TAM","DAL",5,4,1,1,3,2,2,2,0,0,"Ryan Succop",15,15,15,"TAM","DAL",19,3,"False","retractable roof (closed)","matrixturf",72,45,0,-2,"TAM",50,2022-09-11
+"202209110dal","DAL","TAM",1,1,0,0,0,0,0,0,1,1,"Brett Maher",5,5,5,"TAM","DAL",19,3,"False","retractable roof (closed)","matrixturf",72,45,0,-2,"TAM",50,2022-09-11
+"202209110det","0","0",0,1,5,5,1,1,0,0,0,0,"Jake Elliott",8,8,8,"PHI","DET",38,35,"False","dome","fieldturf ",72,45,0,-6,"PHI",48.5,2022-09-11
+"202209110det","0","0",0,0,5,5,0,0,0,0,0,0,"Austin Seibert",5,5,5,"PHI","DET",38,35,"False","dome","fieldturf ",72,45,0,-6,"PHI",48.5,2022-09-11
+"202209110htx","HOU","IND",2,2,2,2,0,0,0,0,0,0,"Ka'imi Fairbairn",2,2,2,"IND","HOU",20,20,"True","retractable roof (closed)","astroturf",72,45,0,-7,"IND",45.5,2022-09-11
+"202209110htx","IND","HOU",3,2,2,2,0,0,0,0,0,0,"Rodrigo Blankenship",2,2,2,"IND","HOU",20,20,"True","retractable roof (closed)","astroturf",72,45,0,-7,"IND",45.5,2022-09-11
+"202209110mia","MIA","NWE",2,2,2,2,0,0,2,2,0,0,"Jason Sanders",10,10,10,"NWE","MIA",7,20,"False","outdoors","grass ",72,45,0,-3,"MIA",46,2022-09-11
+"202209110mia","0","0",0,0,1,1,0,0,0,0,0,0,"Nick Folk",1,1,1,"NWE","MIA",7,20,"False","outdoors","grass ",72,45,0,-3,"MIA",46,2022-09-11
+"202209110min","MIN","GNB",3,3,2,2,2,2,0,0,1,1,"Greg Joseph",13,13,13,"GNB","MIN",7,23,"False","dome","sportturf",72,45,0,-2.5,"MIN",46,2022-09-11
+"202209110min","0","0",0,0,1,1,0,0,0,0,0,0,"Mason Crosby",1,1,1,"GNB","MIN",7,23,"False","dome","sportturf",72,45,0,-2.5,"MIN",46,2022-09-11
+"202209110nyj","NYJ","BAL",2,1,1,0,0,0,0,0,0,0,"Greg Zuerlein",0,0,0,"BAL","NYJ",24,9,"False","outdoors","fieldturf ",72,45,0,-6.5,"BAL",44,2022-09-11
+"202209110nyj","BAL","NYJ",1,1,3,3,1,1,0,0,0,0,"Justin Tucker",6,6,6,"BAL","NYJ",24,9,"False","outdoors","fieldturf ",72,45,0,-6.5,"BAL",44,2022-09-11
+"202209110oti","0","0",0,0,1,1,0,0,0,0,0,0,"Graham Gano",1,1,1,"NYG","TEN",21,20,"False","outdoors","grass ",72,45,0,-5,"TEN",44,2022-09-11
+"202209110oti","TEN","NYG",3,2,2,2,1,1,2,1,0,0,"Randy Bullock",9,9,9,"NYG","TEN",21,20,"False","outdoors","grass ",72,45,0,-5,"TEN",44,2022-09-11
+"202209110sdg","LVR","LAC",2,2,1,1,1,1,0,0,1,1,"Daniel Carlson",9,9,9,"LVR","LAC",19,24,"False","dome","matrixturf",72,45,0,-3.5,"LAC",52.5,2022-09-11
+"202209110sdg","LAC","LVR",2,1,3,3,0,0,0,0,0,0,"Dustin Hopkins",3,3,3,"LVR","LAC",19,24,"False","dome","matrixturf",72,45,0,-3.5,"LAC",52.5,2022-09-11
+"202209110was","0","0",0,0,2,2,0,0,0,0,0,0,"Joey Slye",2,2,2,"JAX","ERROR - abbrev_team",22,28,"False","outdoors","grass ",72,45,0,-3,"ERROR - abbrev_team",43,2022-09-11
+"202209110was","JAX","ERROR - abbrev_team",4,3,1,1,2,1,2,2,0,0,"Riley Patterson",12,12,12,"JAX","ERROR - abbrev_team",22,28,"False","outdoors","grass ",72,45,0,-3,"ERROR - abbrev_team",43,2022-09-11
+"202209120sea","DEN","SEA",4,3,1,1,2,2,1,1,1,0,"Brandon McManus",11,11,11,"DEN","SEA",16,17,"False","outdoors","fieldturf ",72,45,0,-6.5,"DEN",44.5,2022-09-12
+"202209120sea","SEA","DEN",1,1,2,2,0,0,1,1,0,0,"Jason Myers",6,6,6,"DEN","SEA",16,17,"False","outdoors","fieldturf ",72,45,0,-6.5,"DEN",44.5,2022-09-12
+"202209150kan","KAN","LAC",2,2,3,3,2,2,0,0,0,0,"Matt Ammendola",9,9,9,"LAC","KAN",24,27,"False","outdoors","grass ",72,45,0,-4,"KAN",54,2022-09-15
+"202209150kan","LAC","KAN",1,1,3,3,1,1,0,0,0,0,"Dustin Hopkins",6,6,6,"LAC","KAN",24,27,"False","outdoors","grass ",72,45,0,-4,"KAN",54,2022-09-15
+"202209180cle","CLE","NYJ",1,1,4,3,1,1,0,0,0,0,"Cade York",6,6,6,"NYJ","CLE",31,30,"False","outdoors","grass ",72,45,0,-6.5,"CLE",39.5,2022-09-18
+"202209180cle","NYJ","CLE",1,1,4,4,0,0,0,0,1,1,"Greg Zuerlein",9,9,9,"NYJ","CLE",31,30,"False","outdoors","grass ",72,45,0,-6.5,"CLE",39.5,2022-09-18
+"202209180dal","CIN","DAL",3,3,0,0,0,0,2,2,1,1,"Evan McPherson",13,13,13,"CIN","DAL",17,20,"False","retractable roof (closed)","matrixturf",72,45,0,-7,"CIN",42,2022-09-18
+"202209180dal","DAL","CIN",2,2,2,2,0,0,0,0,2,2,"Brett Maher",12,12,12,"CIN","DAL",17,20,"False","retractable roof (closed)","matrixturf",72,45,0,-7,"CIN",42,2022-09-18
+"202209180den","DEN","HOU",3,3,1,1,0,0,0,0,0,0,"Brandon McManus",1,1,1,"HOU","DEN",9,16,"False","outdoors","grass ",72,45,0,-10,"DEN",45.5,2022-09-18
+"202209180den","HOU","DEN",3,3,0,0,1,1,2,2,0,0,"Ka'imi Fairbairn",11,11,11,"HOU","DEN",9,16,"False","outdoors","grass ",72,45,0,-10,"DEN",45.5,2022-09-18
+"202209180det","DET","ERROR - abbrev_team",2,2,4,4,1,1,1,1,0,0,"Austin Seibert",11,11,11,"ERROR - abbrev_team","DET",27,36,"False","dome","fieldturf ",72,45,0,-1.5,"DET",48.5,2022-09-18
+"202209180det","0","0",0,0,2,1,0,0,0,0,0,0,"Joey Slye",1,1,1,"ERROR - abbrev_team","DET",27,36,"False","dome","fieldturf ",72,45,0,-1.5,"DET",48.5,2022-09-18
+"202209180gnb","CHI","GNB",1,1,1,1,0,0,1,1,0,0,"Cairo Santos",5,5,5,"CHI","GNB",10,27,"False","outdoors","grass ",72,45,0,-10,"GNB",41.5,2022-09-18
+"202209180gnb","GNB","CHI",2,2,3,3,1,1,1,1,0,0,"Mason Crosby",10,10,10,"CHI","GNB",10,27,"False","outdoors","grass ",72,45,0,-10,"GNB",41.5,2022-09-18
+"202209180jax","JAX","IND",1,1,3,3,0,0,0,0,0,0,"Riley Patterson",3,3,3,"IND","JAX",0,24,"False","outdoors","grass ",72,45,0,-3,"IND",45,2022-09-18
+"202209180nor","TAM","NOR",2,2,2,2,0,0,2,2,0,0,"Ryan Succop",10,10,10,"TAM","NOR",20,10,"False","dome","sportturf",72,45,0,-2.5,"TAM",44,2022-09-18
+"202209180nor","NOR","TAM",1,1,1,1,1,1,0,0,0,0,"Wil Lutz",4,4,4,"TAM","NOR",20,10,"False","dome","sportturf",72,45,0,-2.5,"TAM",44,2022-09-18
+"202209180nyg","CAR","NYG",3,3,1,1,3,3,0,0,0,0,"Eddy Pineiro",10,10,10,"CAR","NYG",16,19,"False","outdoors","fieldturf ",72,45,0,-2,"NYG",43.5,2022-09-18
+"202209180nyg","NYG","CAR",4,4,1,1,2,2,0,0,2,2,"Graham Gano",17,17,17,"CAR","NYG",16,19,"False","outdoors","fieldturf ",72,45,0,-2,"NYG",43.5,2022-09-18
+"202209180pit","NWE","PIT",2,1,2,2,1,1,0,0,1,0,"Nick Folk",5,5,5,"NWE","PIT",17,14,"False","outdoors","grass ",72,45,0,-2.5,"NWE",40.5,2022-09-18
+"202209180pit","PIT","NWE",2,2,0,0,1,1,0,0,1,1,"Chris Boswell",8,8,8,"NWE","PIT",17,14,"False","outdoors","grass ",72,45,0,-2.5,"NWE",40.5,2022-09-18
+"202209180rai","LVR","ARI",3,3,2,2,0,0,0,0,0,0,"Daniel Carlson",2,2,2,"ARI","LVR",29,23,"True","dome","grass",72,45,0,-5.5,"LVR",51.5,2022-09-18
+"202209180rai","0","0",0,0,1,1,0,0,0,0,0,0,"Matt Prater",1,1,1,"ARI","LVR",29,23,"True","dome","grass",72,45,0,-5.5,"LVR",51.5,2022-09-18
+"202209180ram","ATL","LAR",2,1,2,2,0,0,0,0,0,0,"Younghoe Koo",2,2,2,"ATL","LAR",27,31,"False","dome","matrixturf",72,45,0,-10,"LAR",46.5,2022-09-18
+"202209180ram","LAR","ATL",1,1,4,4,1,1,0,0,0,0,"Matt Gay",7,7,7,"ATL","LAR",27,31,"False","dome","matrixturf",72,45,0,-10,"LAR",46.5,2022-09-18
+"202209180rav","0","0",0,0,6,6,0,0,0,0,0,0,"Jason Sanders",6,6,6,"MIA","BAL",42,38,"False","outdoors","grass",72,45,0,-3.5,"BAL",44.5,2022-09-18
+"202209180rav","BAL","MIA",1,1,5,5,0,0,0,0,1,1,"Justin Tucker",10,10,10,"MIA","BAL",42,38,"False","outdoors","grass",72,45,0,-3.5,"BAL",44.5,2022-09-18
+"202209180sfo","0","0",0,0,1,1,0,0,0,0,0,0,"Jason Myers",1,1,1,"SEA","SFO",7,27,"False","outdoors","grass",72,45,0,-9,"SFO",40.5,2022-09-18
+"202209180sfo","SFO","SEA",3,2,3,3,3,2,0,0,0,0,"Robbie Gould",9,9,9,"SEA","SFO",7,27,"False","outdoors","grass",72,45,0,-9,"SFO",40.5,2022-09-18
+"202209190buf","BUF","TEN",2,2,5,5,0,0,0,0,0,0,"Tyler Bass",5,5,5,"TEN","BUF",7,41,"False","outdoors","a_turf",72,45,0,-10,"BUF",47.5,2022-09-19
+"202209190buf","0","0",0,0,1,1,0,0,0,0,0,0,"Randy Bullock",1,1,1,"TEN","BUF",7,41,"False","outdoors","a_turf",72,45,0,-10,"BUF",47.5,2022-09-19
+"202209190phi","0","0",0,1,3,3,1,1,1,0,0,0,"Jake Elliott",6,6,6,"MIN","PHI",7,24,"False","outdoors","grass ",72,45,0,-2.5,"PHI",50.5,2022-09-19
+"202209190phi","0","0",0,0,1,1,0,0,0,0,0,0,"Greg Joseph",1,1,1,"MIN","PHI",7,24,"False","outdoors","grass ",72,45,0,-2.5,"PHI",50.5,2022-09-19
+"202209220cle","CLE","PIT",1,1,3,2,1,1,0,0,0,0,"Cade York",5,5,5,"PIT","CLE",17,29,"False","outdoors","grass ",72,45,0,-4.5,"CLE",38.5,2022-09-22
+"202209220cle","PIT","CLE",2,1,2,2,1,1,0,0,1,0,"Chris Boswell",5,5,5,"PIT","CLE",17,29,"False","outdoors","grass ",72,45,0,-4.5,"CLE",38.5,2022-09-22
+"202209250car","CAR","NOR",3,3,1,1,1,1,2,2,0,0,"Eddy Pineiro",12,12,12,"NOR","CAR",14,22,"False","outdoors","grass ",72,45,0,-2.5,"NOR",41,2022-09-25
+"202209250car","NOR","CAR",2,0,2,2,1,0,1,0,0,0,"Wil Lutz",2,2,2,"NOR","CAR",14,22,"False","outdoors","grass ",72,45,0,-2.5,"NOR",41,2022-09-25
+"202209250chi","CHI","HOU",3,3,2,2,0,0,0,0,0,0,"Cairo Santos",2,2,2,"HOU","CHI",20,23,"False","outdoors","grass ",72,45,0,-3,"CHI",39,2022-09-25
+"202209250chi","HOU","CHI",2,2,2,2,2,2,0,0,0,0,"Ka'imi Fairbairn",8,8,8,"HOU","CHI",20,23,"False","outdoors","grass ",72,45,0,-3,"CHI",39,2022-09-25
+"202209250clt","IND","KAN",2,2,2,2,0,0,1,1,1,1,"Chase McLaughlin",11,11,11,"KAN","IND",17,20,"False","retractable roof (open)","fieldturf ",72,45,0,-5.5,"KAN",51,2022-09-25
+"202209250clt","KAN","IND",2,1,1,0,0,0,0,0,0,0,"Matt Ammendola",0,0,0,"KAN","IND",17,20,"False","retractable roof (open)","fieldturf ",72,45,0,-5.5,"KAN",51,2022-09-25
+"202209250crd","ARI","LAR",4,4,0,0,0,0,0,0,0,0,"Matt Prater",0,0,0,"LAR","ARI",20,12,"False","retractable roof (closed)","grass ",72,45,0,-3.5,"LAR",48.5,2022-09-25
+"202209250crd","LAR","ARI",2,2,2,2,0,0,0,0,0,0,"Matt Gay",2,2,2,"LAR","ARI",20,12,"False","retractable roof (closed)","grass ",72,45,0,-3.5,"LAR",48.5,2022-09-25
+"202209250den","DEN","SFO",2,1,0,0,0,0,0,0,2,1,"Brandon McManus",5,5,5,"SFO","DEN",10,11,"False","outdoors","grass ",72,45,0,-1.5,"SFO",44.5,2022-09-25
+"202209250den","SFO","DEN",1,1,1,1,0,0,0,0,1,1,"Robbie Gould",6,6,6,"SFO","DEN",10,11,"False","outdoors","grass ",72,45,0,-1.5,"SFO",44.5,2022-09-25
+"202209250mia","BUF","MIA",2,1,2,2,2,1,0,0,0,0,"Tyler Bass",5,5,5,"BUF","MIA",19,21,"False","outdoors","grass ",72,45,0,-4.5,"BUF",53,2022-09-25
+"202209250mia","0","0",0,0,3,3,0,0,0,0,0,0,"Jason Sanders",3,3,3,"BUF","MIA",19,21,"False","outdoors","grass ",72,45,0,-4.5,"BUF",53,2022-09-25
+"202209250min","DET","MIN",3,1,3,3,0,0,2,1,1,0,"Austin Seibert",7,7,7,"DET","MIN",24,28,"False","dome","sportturf",72,45,0,-6,"MIN",52.5,2022-09-25
+"202209250min","MIN","DET",2,0,4,4,0,0,0,0,2,0,"Greg Joseph",4,4,4,"DET","MIN",24,28,"False","dome","sportturf",72,45,0,-6,"MIN",52.5,2022-09-25
+"202209250nwe","BAL","NWE",1,1,5,4,0,0,0,0,1,1,"Justin Tucker",9,9,9,"BAL","NWE",37,26,"False","outdoors","fieldturf ",72,45,0,-2.5,"BAL",44,2022-09-25
+"202209250nwe","NWE","BAL",2,2,2,2,0,0,0,0,0,0,"Nick Folk",2,2,2,"BAL","NWE",37,26,"False","outdoors","fieldturf ",72,45,0,-2.5,"BAL",44,2022-09-25
+"202209250nyj","NYJ","CIN",4,4,0,0,0,0,2,2,2,2,"Greg Zuerlein",18,18,18,"CIN","NYJ",27,12,"False","outdoors","fieldturf ",72,45,0,-6,"CIN",45,2022-09-25
+"202209250nyj","CIN","NYJ",3,2,3,3,1,1,2,1,0,0,"Evan McPherson",10,10,10,"CIN","NYJ",27,12,"False","outdoors","fieldturf ",72,45,0,-6,"CIN",45,2022-09-25
+"202209250oti","LVR","TEN",3,3,1,1,0,0,0,0,0,0,"Daniel Carlson",1,1,1,"LVR","TEN",22,24,"False","outdoors","grass ",72,45,0,-2,"LVR",45.5,2022-09-25
+"202209250oti","TEN","LVR",1,1,3,3,0,0,0,0,0,0,"Randy Bullock",3,3,3,"LVR","TEN",22,24,"False","outdoors","grass ",72,45,0,-2,"LVR",45.5,2022-09-25
+"202209250sdg","LAC","JAX",1,1,1,1,1,1,0,0,0,0,"Dustin Hopkins",4,4,4,"JAX","LAC",38,10,"False","dome","matrixturf",72,45,0,-3,"LAC",42.5,2022-09-25
+"202209250sdg","JAX","LAC",3,3,3,3,3,3,0,0,0,0,"Riley Patterson",12,12,12,"JAX","LAC",38,10,"False","dome","matrixturf",72,45,0,-3,"LAC",42.5,2022-09-25
+"202209250sea","ATL","SEA",2,2,3,3,0,0,1,1,1,1,"Younghoe Koo",12,12,12,"ATL","SEA",27,23,"False","outdoors","fieldturf ",72,45,0,-1,"SEA",42,2022-09-25
+"202209250sea","SEA","ATL",3,3,2,2,3,3,0,0,0,0,"Jason Myers",11,11,11,"ATL","SEA",27,23,"False","outdoors","fieldturf ",72,45,0,-1,"SEA",42,2022-09-25
+"202209250tam","0","0",0,0,2,2,0,0,0,0,0,0,"Mason Crosby",2,2,2,"GNB","TAM",14,12,"False","outdoors","grass ",72,45,0,-1,"TAM",42,2022-09-25
+"202209250tam","TAM","GNB",2,2,0,0,0,0,2,2,0,0,"Ryan Succop",8,8,8,"GNB","TAM",14,12,"False","outdoors","grass ",72,45,0,-1,"TAM",42,2022-09-25
+"202209250was","0","0",0,1,3,3,1,1,0,0,0,0,"Jake Elliott",6,6,6,"PHI","ERROR - abbrev_team",24,8,"False","outdoors","grass ",72,45,0,-6,"PHI",47.5,2022-09-25
+"202209260nyg","NYG","DAL",4,3,1,1,0,0,2,1,2,2,"Graham Gano",15,15,15,"DAL","NYG",23,16,"False","outdoors","fieldturf ",72,45,0,-1,"NYG",39,2022-09-26
+"202209260nyg","DAL","NYG",4,3,2,2,2,2,1,1,1,0,"Brett Maher",12,12,12,"DAL","NYG",23,16,"False","outdoors","fieldturf ",72,45,0,-1,"NYG",39,2022-09-26
+"202209290cin","CIN","MIA",2,2,3,3,1,1,0,0,1,1,"Evan McPherson",11,11,11,"MIA","CIN",15,27,"False","outdoors","fieldturf ",72,45,0,-3.5,"CIN",48,2022-09-29
+"202209290cin","MIA","CIN",4,3,1,0,2,2,1,1,1,0,"Jason Sanders",10,10,10,"MIA","CIN",15,27,"False","outdoors","fieldturf ",72,45,0,-3.5,"CIN",48,2022-09-29
+"202210020atl","ATL","CLE",3,3,2,2,2,2,1,1,0,0,"Younghoe Koo",12,12,12,"CLE","ATL",20,23,"False","retractable roof (open)","fieldturf",72,45,0,-1,"CLE",48,2022-10-02
+"202210020atl","CLE","ATL",2,2,2,2,1,1,1,1,0,0,"Cade York",9,9,9,"CLE","ATL",20,23,"False","retractable roof (open)","fieldturf",72,45,0,-1,"CLE",48,2022-10-02
+"202210020car","ARI","CAR",2,2,2,2,2,2,0,0,0,0,"Matt Prater",8,8,8,"ARI","CAR",26,16,"False","outdoors","grass ",72,45,0,-1,"CAR",43.5,2022-10-02
+"202210020car","CAR","ARI",1,1,1,1,0,0,0,0,0,0,"Eddy Pineiro",1,1,1,"ARI","CAR",26,16,"False","outdoors","grass ",72,45,0,-1,"CAR",43.5,2022-10-02
+"202210020clt","IND","TEN",2,1,2,2,0,0,0,0,0,0,"Chase McLaughlin",2,2,2,"TEN","IND",24,17,"False","retractable roof (open)","fieldturf ",72,45,0,-3.5,"IND",43,2022-10-02
+"202210020clt","TEN","IND",1,1,3,3,0,0,0,0,0,0,"Randy Bullock",3,3,3,"TEN","IND",24,17,"False","retractable roof (open)","fieldturf ",72,45,0,-3.5,"IND",43,2022-10-02
+"202210020dal","DAL","ERROR - abbrev_team",4,4,2,1,2,2,1,1,1,1,"Brett Maher",16,16,16,"ERROR - abbrev_team","DAL",10,25,"False","retractable roof (closed)","matrixturf",72,45,0,-3,"DAL",41,2022-10-02
+"202210020dal","ERROR - abbrev_team","DAL",1,1,1,1,0,0,1,1,0,0,"Joey Slye",5,5,5,"ERROR - abbrev_team","DAL",10,25,"False","retractable roof (closed)","matrixturf",72,45,0,-3,"DAL",41,2022-10-02
+"202210020det","DET","SEA",1,1,4,2,0,0,1,1,0,0,"Dominik Eberle",6,6,6,"SEA","DET",48,45,"False","dome","fieldturf ",72,45,0,-3.5,"DET",47.5,2022-10-02
+"202210020det","SEA","DET",3,2,6,6,2,1,0,0,1,1,"Jason Myers",14,14,14,"SEA","DET",48,45,"False","dome","fieldturf ",72,45,0,-3.5,"DET",47.5,2022-10-02
+"202210020gnb","GNB","NWE",2,2,3,3,2,2,0,0,0,0,"Mason Crosby",9,9,9,"NWE","GNB",24,27,"True","outdoors","grass ",72,45,0,-9.5,"GNB",40,2022-10-02
+"202210020gnb","NWE","GNB",1,1,3,3,1,1,0,0,0,0,"Nick Folk",6,6,6,"NWE","GNB",24,27,"True","outdoors","grass ",72,45,0,-9.5,"GNB",40,2022-10-02
+"202210020htx","HOU","LAC",2,1,3,3,0,0,2,1,0,0,"Ka'imi Fairbairn",7,7,7,"LAC","HOU",34,24,"False","retractable roof (closed)","astroturf",72,45,0,-6,"LAC",45,2022-10-02
+"202210020htx","LAC","HOU",2,2,4,4,0,0,0,0,0,0,"Dustin Hopkins",4,4,4,"LAC","HOU",34,24,"False","retractable roof (closed)","astroturf",72,45,0,-6,"LAC",45,2022-10-02
+"202210020nor","MIN","NOR",5,5,2,1,3,3,2,2,0,0,"Greg Joseph",18,18,18,"MIN","NOR",28,25,"False","outdoors","grass",72,45,0,-4,"MIN",41.5,2022-10-02
+"202210020nor","NOR","MIN",2,1,2,2,0,0,0,0,2,1,"Wil Lutz",7,7,7,"MIN","NOR",28,25,"False","outdoors","grass",72,45,0,-4,"MIN",41.5,2022-10-02
+"202210020nyg","CHI","NYG",4,4,0,0,3,3,1,1,0,0,"Michael Badgley",13,13,13,"CHI","NYG",12,20,"False","outdoors","fieldturf ",72,45,0,-2.5,"NYG",38.5,2022-10-02
+"202210020nyg","NYG","CHI",3,2,2,2,1,0,2,2,0,0,"Graham Gano",10,10,10,"CHI","NYG",12,20,"False","outdoors","fieldturf ",72,45,0,-2.5,"NYG",38.5,2022-10-02
+"202210020phi","0","0",0,1,3,2,1,1,0,0,0,0,"Jake Elliott",5,5,5,"JAX","PHI",21,29,"False","outdoors","grass ",72,45,0,-6.5,"PHI",45.5,2022-10-02
+"202210020phi","0","0",0,0,3,3,0,0,0,0,0,0,"Riley Patterson",3,3,3,"JAX","PHI",21,29,"False","outdoors","grass ",72,45,0,-6.5,"PHI",45.5,2022-10-02
+"202210020pit","NYJ","PIT",1,1,3,3,1,1,0,0,0,0,"Greg Zuerlein",6,6,6,"NYJ","PIT",24,20,"False","outdoors","grass ",72,45,0,-3.5,"PIT",41.5,2022-10-02
+"202210020pit","PIT","NYJ",2,2,2,2,0,0,0,0,2,2,"Chris Boswell",12,12,12,"NYJ","PIT",24,20,"False","outdoors","grass ",72,45,0,-3.5,"PIT",41.5,2022-10-02
+"202210020rai","DEN","LVR",1,1,3,2,0,0,0,0,0,0,"Brandon McManus",2,2,2,"DEN","LVR",23,32,"False","dome","grass",72,45,0,-3,"LVR",45,2022-10-02
+"202210020rai","LVR","DEN",4,4,3,2,4,4,0,0,0,0,"Daniel Carlson",14,14,14,"DEN","LVR",23,32,"False","dome","grass",72,45,0,-3,"LVR",45,2022-10-02
+"202210020rav","BAL","BUF",2,2,2,2,0,0,1,1,1,1,"Justin Tucker",11,11,11,"BUF","BAL",23,20,"False","outdoors","grass",72,45,0,-3,"BUF",51,2022-10-02
+"202210020rav","BUF","BAL",3,3,2,2,0,0,0,0,0,0,"Tyler Bass",2,2,2,"BUF","BAL",23,20,"False","outdoors","grass",72,45,0,-3,"BUF",51,2022-10-02
+"202210020tam","KAN","TAM",2,2,5,5,1,1,1,1,0,0,"Matthew Wright",12,12,12,"KAN","TAM",41,31,"False","outdoors","grass ",72,45,0,-1,"TAM",46,2022-10-02
+"202210020tam","TAM","KAN",1,1,4,4,0,0,1,1,0,0,"Ryan Succop",8,8,8,"KAN","TAM",41,31,"False","outdoors","grass ",72,45,0,-1,"TAM",46,2022-10-02
+"202210030sfo","LAR","SFO",3,3,0,0,3,3,0,0,0,0,"Matt Gay",9,9,9,"LAR","SFO",9,24,"False","outdoors","grass",72,45,0,-1.5,"SFO",42.5,2022-10-03
+"202210030sfo","SFO","LAR",2,1,3,3,0,0,0,0,0,0,"Robbie Gould",3,3,3,"LAR","SFO",9,24,"False","outdoors","grass",72,45,0,-1.5,"SFO",42.5,2022-10-03
+"202210060den","DEN","IND",4,3,0,0,0,0,0,0,0,0,"Brandon McManus",0,0,0,"IND","DEN",12,9,"True","outdoors","grass ",72,45,0,-3,"DEN",42,2022-10-06
+"202210060den","IND","DEN",4,4,0,0,1,1,1,1,2,2,"Chase McLaughlin",17,17,17,"IND","DEN",12,9,"True","outdoors","grass ",72,45,0,-3,"DEN",42,2022-10-06
+"202210090buf","BUF","PIT",2,1,5,5,1,1,1,0,0,0,"Tyler Bass",8,8,8,"PIT","BUF",3,38,"False","outdoors","a_turf",72,45,0,-14,"BUF",45.5,2022-10-09
+"202210090buf","PIT","BUF",3,1,0,0,2,1,1,0,0,0,"Chris Boswell",3,3,3,"PIT","BUF",3,38,"False","outdoors","a_turf",72,45,0,-14,"BUF",45.5,2022-10-09
+"202210090car","CAR","SFO",4,3,0,0,2,2,2,1,0,0,"Eddy Pineiro",10,10,10,"SFO","CAR",37,15,"False","outdoors","grass ",72,45,0,-6.5,"SFO",39.5,2022-10-09
+"202210090car","SFO","CAR",2,1,3,3,0,0,2,1,0,0,"Robbie Gould",7,7,7,"SFO","CAR",37,15,"False","outdoors","grass ",72,45,0,-6.5,"SFO",39.5,2022-10-09
+"202210090car","0","0",0,0,2,1,0,0,0,0,0,0,"Mitch Wishnowsky",1,1,1,"SFO","CAR",37,15,"False","outdoors","grass ",72,45,0,-6.5,"SFO",39.5,2022-10-09
+"202210090cle","CLE","LAC",2,0,4,4,0,0,1,0,1,0,"Cade York",4,4,4,"LAC","CLE",30,28,"False","outdoors","grass ",72,45,0,-1,"LAC",47,2022-10-09
+"202210090cle","LAC","CLE",3,3,3,3,3,3,0,0,0,0,"Taylor Bertolet",12,12,12,"LAC","CLE",30,28,"False","outdoors","grass ",72,45,0,-1,"LAC",47,2022-10-09
+"202210090crd","ARI","PHI",2,1,2,2,1,1,1,0,0,0,"Matt Ammendola",5,5,5,"PHI","ARI",20,17,"False","retractable roof (closed)","grass ",72,45,0,-5,"PHI",49,2022-10-09
+"202210090crd","PHI","ARI",2,2,2,2,0,0,0,0,0,0,"Cameron Dicker",2,2,2,"PHI","ARI",20,17,"False","retractable roof (closed)","grass ",72,45,0,-5,"PHI",49,2022-10-09
+"202210090gnb","GNB","NYG",2,2,2,2,0,0,2,2,0,0,"Mason Crosby",10,10,10,"NYG","GNB",27,22,"False","outdoors","grass",72,45,0,-8,"GNB",41.5,2022-10-09
+"202210090gnb","NYG","GNB",2,2,3,3,1,1,1,1,0,0,"Graham Gano",10,10,10,"NYG","GNB",27,22,"False","outdoors","grass",72,45,0,-8,"GNB",41.5,2022-10-09
+"202210090jax","HOU","JAX",2,2,1,1,0,0,1,1,1,1,"Ka'imi Fairbairn",10,10,10,"HOU","JAX",13,6,"False","outdoors","grass ",72,45,0,-7,"JAX",43.5,2022-10-09
+"202210090jax","JAX","HOU",2,2,0,0,0,0,0,0,0,0,"Riley Patterson",0,0,0,"HOU","JAX",13,6,"False","outdoors","grass ",72,45,0,-7,"JAX",43.5,2022-10-09
+"202210090min","CHI","MIN",3,3,1,1,0,0,2,2,1,1,"Cairo Santos",14,14,14,"CHI","MIN",22,29,"False","dome","sportturf",72,45,0,-7.5,"MIN",44,2022-10-09
+"202210090min","MIN","CHI",2,0,3,3,0,0,0,0,2,0,"Greg Joseph",3,3,3,"CHI","MIN",22,29,"False","dome","sportturf",72,45,0,-7.5,"MIN",44,2022-10-09
+"202210090nor","NOR","SEA",1,1,4,4,0,0,0,0,1,1,"Wil Lutz",9,9,9,"SEA","NOR",32,39,"False","dome","sportturf",72,45,0,-5,"NOR",45,2022-10-09
+"202210090nor","SEA","NOR",2,2,3,2,1,1,0,0,1,1,"Jason Myers",10,10,10,"SEA","NOR",32,39,"False","dome","sportturf",72,45,0,-5,"NOR",45,2022-10-09
+"202210090nwe","NWE","DET",5,5,2,2,4,4,1,1,0,0,"Nick Folk",18,18,18,"DET","NWE",0,29,"False","outdoors","fieldturf ",72,45,0,-3,"NWE",45.5,2022-10-09
+"202210090nyj","MIA","NYJ",2,1,2,2,0,0,1,1,1,0,"Jason Sanders",6,6,6,"MIA","NYJ",17,40,"False","outdoors","fieldturf ",72,45,0,-3.5,"MIA",45,2022-10-09
+"202210090nyj","NYJ","MIA",1,1,5,5,1,1,0,0,0,0,"Greg Zuerlein",8,8,8,"MIA","NYJ",17,40,"False","outdoors","fieldturf ",72,45,0,-3.5,"MIA",45,2022-10-09
+"202210090ram","DAL","LAR",3,3,1,1,0,0,0,0,0,0,"Brett Maher",1,1,1,"DAL","LAR",22,10,"False","dome","matrixturf",72,45,0,-5.5,"LAR",42,2022-10-09
+"202210090ram","LAR","DAL",2,1,1,1,1,1,0,0,1,0,"Matt Gay",4,4,4,"DAL","LAR",22,10,"False","dome","matrixturf",72,45,0,-5.5,"LAR",42,2022-10-09
+"202210090rav","BAL","CIN",4,4,1,1,2,2,1,1,1,1,"Justin Tucker",16,16,16,"CIN","BAL",17,19,"False","outdoors","grass",72,45,0,-3.5,"BAL",47.5,2022-10-09
+"202210090rav","CIN","BAL",1,1,2,2,0,0,0,0,0,0,"Evan McPherson",2,2,2,"CIN","BAL",17,19,"False","outdoors","grass",72,45,0,-3.5,"BAL",47.5,2022-10-09
+"202210090tam","ATL","TAM",1,0,1,1,0,0,0,0,1,0,"Younghoe Koo",1,1,1,"ATL","TAM",15,21,"False","outdoors","grass ",72,45,0,-10,"TAM",46.5,2022-10-09
+"202210090tam","TAM","ATL",2,2,1,1,1,1,1,1,0,0,"Ryan Succop",8,8,8,"ATL","TAM",15,21,"False","outdoors","grass ",72,45,0,-10,"TAM",46.5,2022-10-09
+"202210090was","ERROR - abbrev_team","TEN",1,1,2,2,0,0,0,0,0,0,"Joey Slye",2,2,2,"TEN","ERROR - abbrev_team",21,17,"False","outdoors","grass ",72,45,0,-2,"TEN",43,2022-10-09
+"202210090was","0","0",0,0,3,3,0,0,0,0,0,0,"Randy Bullock",3,3,3,"TEN","ERROR - abbrev_team",21,17,"False","outdoors","grass ",72,45,0,-2,"TEN",43,2022-10-09
+"202210100kan","KAN","LVR",2,1,3,3,0,0,0,0,0,0,"Matthew Wright",3,3,3,"LVR","KAN",29,30,"False","outdoors","grass ",72,45,0,-7,"KAN",51.5,2022-10-10
+"202210100kan","LVR","KAN",3,3,2,2,0,0,1,1,2,2,"Daniel Carlson",16,16,16,"LVR","KAN",29,30,"False","outdoors","grass ",72,45,0,-7,"KAN",51.5,2022-10-10
+"202210130chi","ERROR - abbrev_team","CHI",3,2,0,0,2,2,1,0,0,0,"Joey Slye",6,6,6,"ERROR - abbrev_team","CHI",12,7,"False","outdoors","grass ",72,45,0,-1,"ERROR - abbrev_team",38,2022-10-13
+"202210130chi","0","0",0,0,1,1,0,0,0,0,0,0,"Cairo Santos",1,1,1,"ERROR - abbrev_team","CHI",12,7,"False","outdoors","grass ",72,45,0,-1,"ERROR - abbrev_team",38,2022-10-13
+"202210160atl","0","0",0,0,2,2,0,0,0,0,0,0,"Robbie Gould",2,2,2,"SFO","ATL",14,28,"False","retractable roof (open)","fieldturf",72,45,0,-4.5,"SFO",45,2022-10-16
+"202210160atl","0","0",0,0,4,4,0,0,0,0,0,0,"Younghoe Koo",4,4,4,"SFO","ATL",14,28,"False","retractable roof (open)","fieldturf",72,45,0,-4.5,"SFO",45,2022-10-16
+"202210160cle","CLE","NWE",3,3,0,0,1,1,1,1,1,1,"Cade York",12,12,12,"NWE","CLE",38,15,"False","outdoors","grass ",72,45,0,-2.5,"CLE",43,2022-10-16
+"202210160cle","NWE","CLE",2,1,5,5,1,1,1,0,0,0,"Nick Folk",8,8,8,"NWE","CLE",38,15,"False","outdoors","grass ",72,45,0,-2.5,"CLE",43,2022-10-16
+"202210160clt","0","0",0,0,3,3,0,0,0,0,0,0,"Riley Patterson",3,3,3,"JAX","IND",27,34,"False","retractable roof (open)","fieldturf ",72,45,0,-1.5,"IND",41,2022-10-16
+"202210160clt","IND","JAX",2,2,2,2,1,1,1,1,0,0,"Chase McLaughlin",9,9,9,"JAX","IND",27,34,"False","retractable roof (open)","fieldturf ",72,45,0,-1.5,"IND",41,2022-10-16
+"202210160gnb","GNB","NYJ",2,1,1,1,1,1,1,0,0,0,"Mason Crosby",4,4,4,"NYJ","GNB",27,10,"False","outdoors","grass ",72,45,0,-7.5,"GNB",45,2022-10-16
+"202210160gnb","NYJ","GNB",3,2,3,3,2,2,0,0,1,0,"Greg Zuerlein",9,9,9,"NYJ","GNB",27,10,"False","outdoors","grass ",72,45,0,-7.5,"GNB",45,2022-10-16
+"202210160kan","BUF","KAN",1,1,3,3,1,1,0,0,0,0,"Tyler Bass",6,6,6,"BUF","KAN",24,20,"False","outdoors","grass ",72,45,0,-2.5,"BUF",54,2022-10-16
+"202210160kan","KAN","BUF",3,2,2,2,0,0,1,1,2,1,"Harrison Butker",11,11,11,"BUF","KAN",24,20,"False","outdoors","grass ",72,45,0,-2.5,"BUF",54,2022-10-16
+"202210160mia","MIA","MIN",2,1,1,1,0,0,1,1,1,0,"Jason Sanders",5,5,5,"MIN","MIA",24,16,"False","outdoors","grass ",72,45,0,-3,"MIN",45.5,2022-10-16
+"202210160mia","MIN","MIA",1,1,2,1,1,1,0,0,0,0,"Greg Joseph",4,4,4,"MIN","MIA",24,16,"False","outdoors","grass ",72,45,0,-3,"MIN",45.5,2022-10-16
+"202210160nor","NOR","CIN",4,4,2,2,4,4,0,0,0,0,"Wil Lutz",14,14,14,"CIN","NOR",30,26,"False","dome","sportturf",72,45,0,-3,"CIN",43,2022-10-16
+"202210160nor","CIN","NOR",1,1,3,3,0,0,0,0,1,1,"Evan McPherson",8,8,8,"CIN","NOR",30,26,"False","dome","sportturf",72,45,0,-3,"CIN",43,2022-10-16
+"202210160nyg","NYG","BAL",1,1,3,3,0,0,0,0,0,0,"Graham Gano",3,3,3,"BAL","NYG",20,24,"False","outdoors","fieldturf ",72,45,0,-5.5,"BAL",45.5,2022-10-16
+"202210160nyg","BAL","NYG",3,2,2,2,2,2,0,0,1,0,"Justin Tucker",8,8,8,"BAL","NYG",20,24,"False","outdoors","fieldturf ",72,45,0,-5.5,"BAL",45.5,2022-10-16
+"202210160phi","0","0",0,2,2,2,1,1,0,0,1,1,"Jake Elliott",10,10,10,"DAL","PHI",17,26,"False","outdoors","grass ",72,45,0,-6.5,"PHI",42,2022-10-16
+"202210160phi","DAL","PHI",2,1,2,2,1,1,0,0,1,0,"Brett Maher",5,5,5,"DAL","PHI",17,26,"False","outdoors","grass ",72,45,0,-6.5,"PHI",42,2022-10-16
+"202210160pit","TAM","PIT",4,4,0,0,3,3,0,0,1,1,"Ryan Succop",14,14,14,"TAM","PIT",18,20,"False","outdoors","grass ",72,45,0,-9.5,"TAM",46,2022-10-16
+"202210160pit","PIT","TAM",2,2,2,2,1,1,0,0,1,1,"Chris Boswell",10,10,10,"TAM","PIT",18,20,"False","outdoors","grass ",72,45,0,-9.5,"TAM",46,2022-10-16
+"202210160ram","CAR","LAR",1,1,1,1,0,0,0,0,0,0,"Eddy Pineiro",1,1,1,"CAR","LAR",10,24,"False","dome","matrixturf",72,45,0,-10,"LAR",41.5,2022-10-16
+"202210160ram","LAR","CAR",1,1,3,3,1,1,0,0,0,0,"Matt Gay",6,6,6,"CAR","LAR",10,24,"False","dome","matrixturf",72,45,0,-10,"LAR",41.5,2022-10-16
+"202210160sea","SEA","ARI",4,4,1,1,0,0,0,0,0,0,"Jason Myers",1,1,1,"ARI","SEA",9,19,"False","outdoors","fieldturf ",72,45,0,-2.5,"ARI",50.5,2022-10-16
+"202210160sea","ARI","SEA",1,1,1,0,1,1,0,0,0,0,"Matt Ammendola",3,3,3,"ARI","SEA",9,19,"False","outdoors","fieldturf ",72,45,0,-2.5,"ARI",50.5,2022-10-16
+"202210170sdg","DEN","LAC",3,3,1,1,1,1,1,1,1,1,"Brandon McManus",13,13,13,"DEN","LAC",16,19,"True","dome","matrixturf",72,45,0,-4.5,"LAC",45.5,2022-10-17
+"202210170sdg","LAC","DEN",4,4,1,1,4,4,0,0,0,0,"Dustin Hopkins",13,13,13,"DEN","LAC",16,19,"True","dome","matrixturf",72,45,0,-4.5,"LAC",45.5,2022-10-17
+"202210200crd","ARI","NOR",2,2,3,2,1,1,0,0,1,1,"Rodrigo Blankenship",10,10,10,"NOR","ARI",34,42,"False","retractable roof (open)","grass ",72,45,0,-2.5,"ARI",44,2022-10-20
+"202210200crd","NOR","ARI",2,2,4,4,0,0,0,0,0,0,"Wil Lutz",4,4,4,"NOR","ARI",34,42,"False","retractable roof (open)","grass ",72,45,0,-2.5,"ARI",44,2022-10-20
+"202210230car","TAM","CAR",1,1,0,0,1,1,0,0,0,0,"Ryan Succop",3,3,3,"TAM","CAR",3,21,"False","outdoors","grass ",72,45,0,-13,"TAM",39.5,2022-10-23
+"202210230car","0","0",0,0,3,3,0,0,0,0,0,0,"Eddy Pineiro",3,3,3,"TAM","CAR",3,21,"False","outdoors","grass ",72,45,0,-13,"TAM",39.5,2022-10-23
+"202210230cin","ATL","CIN",1,1,2,2,0,0,1,1,0,0,"Younghoe Koo",6,6,6,"ATL","CIN",17,35,"False","outdoors","fieldturf ",72,45,0,-6.5,"CIN",47,2022-10-23
+"202210230cin","0","0",0,0,5,5,0,0,0,0,0,0,"Evan McPherson",5,5,5,"ATL","CIN",17,35,"False","outdoors","fieldturf ",72,45,0,-6.5,"CIN",47,2022-10-23
+"202210230dal","DAL","DET",1,1,3,3,1,1,0,0,0,0,"Brett Maher",6,6,6,"DET","DAL",6,24,"False","retractable roof (closed)","matrixturf",72,45,0,-6.5,"DAL",49,2022-10-23
+"202210230dal","DET","DAL",2,2,0,0,1,1,0,0,1,1,"Michael Badgley",8,8,8,"DET","DAL",6,24,"False","retractable roof (closed)","matrixturf",72,45,0,-6.5,"DAL",49,2022-10-23
+"202210230den","DEN","NYJ",2,1,1,0,0,0,1,1,1,0,"Brandon McManus",4,4,4,"NYJ","DEN",16,9,"False","outdoors","grass ",72,45,0,-1.5,"NYJ",37,2022-10-23
+"202210230den","NYJ","DEN",3,3,1,1,1,1,2,2,0,0,"Greg Zuerlein",12,12,12,"NYJ","DEN",16,9,"False","outdoors","grass ",72,45,0,-1.5,"NYJ",37,2022-10-23
+"202210230jax","JAX","NYG",1,1,1,0,1,1,0,0,0,0,"Riley Patterson",3,3,3,"NYG","JAX",23,17,"False","outdoors","grass ",72,45,0,-3,"JAX",43.5,2022-10-23
+"202210230jax","NYG","JAX",3,3,2,2,3,3,0,0,0,0,"Graham Gano",11,11,11,"NYG","JAX",23,17,"False","outdoors","grass ",72,45,0,-3,"JAX",43.5,2022-10-23
+"202210230mia","PIT","MIA",1,1,1,1,0,0,1,1,0,0,"Chris Boswell",5,5,5,"PIT","MIA",10,16,"False","outdoors","grass ",72,45,0,-7.5,"MIA",44.5,2022-10-23
+"202210230mia","MIA","PIT",3,3,1,1,1,1,2,2,0,0,"Jason Sanders",12,12,12,"PIT","MIA",10,16,"False","outdoors","grass ",72,45,0,-7.5,"MIA",44.5,2022-10-23
+"202210230oti","TEN","IND",4,4,1,1,0,0,0,0,0,0,"Randy Bullock",1,1,1,"IND","TEN",10,19,"False","outdoors","grass ",72,45,0,-2.5,"TEN",41.5,2022-10-23
+"202210230oti","IND","TEN",1,1,1,1,0,0,0,0,0,0,"Chase McLaughlin",1,1,1,"IND","TEN",10,19,"False","outdoors","grass ",72,45,0,-2.5,"TEN",41.5,2022-10-23
+"202210230rai","HOU","LVR",3,2,2,2,0,0,0,0,0,0,"Ka'imi Fairbairn",2,2,2,"HOU","LVR",20,38,"False","dome","grass",72,45,0,-7,"LVR",46,2022-10-23
+"202210230rai","LVR","HOU",1,1,5,5,0,0,0,0,0,0,"Daniel Carlson",5,5,5,"HOU","LVR",20,38,"False","dome","grass",72,45,0,-7,"LVR",46,2022-10-23
+"202210230rav","CLE","BAL",3,2,2,2,0,0,0,0,0,0,"Cade York",2,2,2,"CLE","BAL",20,23,"False","outdoors","grass",72,45,0,-6.5,"BAL",45.5,2022-10-23
+"202210230rav","BAL","CLE",3,3,2,2,2,2,0,0,1,1,"Justin Tucker",13,13,13,"CLE","BAL",20,23,"False","outdoors","grass",72,45,0,-6.5,"BAL",45.5,2022-10-23
+"202210230sdg","SEA","LAC",3,3,4,4,1,1,1,1,1,1,"Jason Myers",16,16,16,"SEA","LAC",37,23,"False","dome","matrixturf",72,45,0,-4.5,"LAC",50.5,2022-10-23
+"202210230sdg","0","0",0,0,3,3,0,0,0,0,0,0,"Taylor Bertolet",3,3,3,"SEA","LAC",37,23,"False","dome","matrixturf",72,45,0,-4.5,"LAC",50.5,2022-10-23
+"202210230sfo","KAN","SFO",1,0,6,6,1,0,0,0,0,0,"Harrison Butker",6,6,6,"KAN","SFO",44,23,"False","outdoors","grass",72,45,0,-1,"KAN",49,2022-10-23
+"202210230sfo","SFO","KAN",3,3,2,2,1,1,1,1,1,1,"Robbie Gould",14,14,14,"KAN","SFO",44,23,"False","outdoors","grass",72,45,0,-1,"KAN",49,2022-10-23
+"202210230was","0","0",0,0,3,3,0,0,0,0,0,0,"Mason Crosby",3,3,3,"GNB","ERROR - abbrev_team",21,23,"False","outdoors","grass ",72,45,0,-4.5,"GNB",41.5,2022-10-23
+"202210230was","ERROR - abbrev_team","GNB",4,3,2,2,3,3,1,0,0,0,"Joey Slye",11,11,11,"GNB","ERROR - abbrev_team",21,23,"False","outdoors","grass ",72,45,0,-4.5,"GNB",41.5,2022-10-23
+"202210240nwe","CHI","NWE",4,4,3,3,2,2,1,1,1,1,"Cairo Santos",18,18,18,"CHI","NWE",33,14,"False","outdoors","fieldturf ",72,45,0,-8.5,"NWE",40.5,2022-10-24
+"202210240nwe","0","0",0,0,2,2,0,0,0,0,0,0,"Nick Folk",2,2,2,"CHI","NWE",33,14,"False","outdoors","fieldturf ",72,45,0,-8.5,"NWE",40.5,2022-10-24
+"202210270tam","BAL","TAM",3,2,3,3,2,2,0,0,1,0,"Justin Tucker",9,9,9,"BAL","TAM",27,22,"False","outdoors","grass ",76,91,4,-1.5,"TAM",45.5,2022-10-27
+"202210270tam","TAM","BAL",3,3,1,1,0,0,0,0,0,0,"Ryan Succop",1,1,1,"BAL","TAM",27,22,"False","outdoors","grass ",76,91,4,-1.5,"TAM",45.5,2022-10-27
+"202210300atl","ATL","CAR",3,3,4,4,2,2,1,1,0,0,"Younghoe Koo",14,14,14,"CAR","ATL",34,37,"True","retractable roof (closed)","fieldturf",72,45,0,-4,"ATL",41,2022-10-30
+"202210300atl","CAR","ATL",3,2,3,2,2,1,1,1,0,0,"Eddy Pineiro",9,9,9,"CAR","ATL",34,37,"True","retractable roof (closed)","fieldturf",72,45,0,-4,"ATL",41,2022-10-30
+"202210300buf","BUF","GNB",2,2,3,3,1,1,1,1,0,0,"Tyler Bass",10,10,10,"GNB","BUF",17,27,"False","outdoors","a_turf",54,47,4,-10.5,"BUF",47,2022-10-30
+"202210300buf","GNB","BUF",2,1,2,2,1,1,0,0,1,0,"Mason Crosby",5,5,5,"GNB","BUF",17,27,"False","outdoors","a_turf",54,47,4,-10.5,"BUF",47,2022-10-30
+"202210300clt","ERROR - abbrev_team","IND",1,1,2,2,0,0,0,0,0,0,"Joey Slye",2,2,2,"ERROR - abbrev_team","IND",17,16,"False","retractable roof (closed)","fieldturf ",72,45,0,-3,"IND",39.5,2022-10-30
+"202210300clt","IND","ERROR - abbrev_team",3,3,1,1,2,2,1,1,0,0,"Chase McLaughlin",11,11,11,"ERROR - abbrev_team","IND",17,16,"False","retractable roof (closed)","fieldturf ",72,45,0,-3,"IND",39.5,2022-10-30
+"202210300dal","CHI","DAL",1,1,2,2,1,1,0,0,0,0,"Cairo Santos",5,5,5,"CHI","DAL",29,49,"False","retractable roof (open)","matrixturf",72,45,0,-10,"DAL",42.5,2022-10-30
+"202210300dal","0","0",0,0,7,7,0,0,0,0,0,0,"Brett Maher",7,7,7,"CHI","DAL",29,49,"False","retractable roof (open)","matrixturf",72,45,0,-10,"DAL",42.5,2022-10-30
+"202210300det","DET","MIA",2,2,3,3,1,1,1,1,0,0,"Michael Badgley",10,10,10,"MIA","DET",31,27,"False","dome","fieldturf ",72,45,0,-3.5,"MIA",51.5,2022-10-30
+"202210300det","MIA","DET",1,1,4,4,0,0,1,1,0,0,"Jason Sanders",8,8,8,"MIA","DET",31,27,"False","dome","fieldturf ",72,45,0,-3.5,"MIA",51.5,2022-10-30
+"202210300htx","HOU","TEN",1,1,1,1,0,0,0,0,0,0,"Ka'imi Fairbairn",1,1,1,"TEN","HOU",17,10,"False","retractable roof (closed)","astroturf",72,45,0,-3.5,"TEN",39,2022-10-30
+"202210300htx","TEN","HOU",2,1,2,2,0,0,0,0,0,0,"Randy Bullock",2,2,2,"TEN","HOU",17,10,"False","retractable roof (closed)","astroturf",72,45,0,-3.5,"TEN",39,2022-10-30
+"202210300jax","0","0",0,0,3,3,0,0,0,0,0,0,"Brandon McManus",3,3,3,"DEN","JAX",21,17,"False","outdoors","grass",72,45,0,-2,"JAX",40.5,2022-10-30
+"202210300jax","JAX","DEN",1,1,2,2,1,1,0,0,0,0,"Riley Patterson",5,5,5,"DEN","JAX",21,17,"False","outdoors","grass",72,45,0,-2,"JAX",40.5,2022-10-30
+"202210300min","MIN","ARI",1,0,5,4,0,0,0,0,0,0,"Greg Joseph",4,4,4,"ARI","MIN",26,34,"False","dome","sportturf",72,45,0,-3.5,"MIN",48.5,2022-10-30
+"202210300min","ARI","MIN",2,2,2,2,1,1,1,1,0,0,"Matt Prater",9,9,9,"ARI","MIN",26,34,"False","dome","sportturf",72,45,0,-3.5,"MIN",48.5,2022-10-30
+"202210300nor","NOR","LVR",2,1,3,3,0,0,0,0,0,0,"Wil Lutz",3,3,3,"LVR","NOR",0,24,"False","dome","sportturf",72,45,0,-1.5,"LVR",49.5,2022-10-30
+"202210300nyj","NWE","NYJ",5,5,1,1,1,1,3,3,1,1,"Nick Folk",21,21,21,"NWE","NYJ",22,17,"False","outdoors","fieldturf ",57,39,2,-2.5,"NWE",40,2022-10-30
+"202210300nyj","NYJ","NWE",2,1,2,2,1,1,1,0,0,0,"Greg Zuerlein",5,5,5,"NWE","NYJ",22,17,"False","outdoors","fieldturf ",57,39,2,-2.5,"NWE",40,2022-10-30
+"202210300phi","PIT","PHI",2,2,1,1,2,2,0,0,0,0,"Nick Sciba",7,7,7,"PIT","PHI",13,35,"False","outdoors","grass ",60,47,2,-10.5,"PHI",43,2022-10-30
+"202210300phi","0","0",0,0,5,5,0,0,0,0,0,0,"Jake Elliott",5,5,5,"PIT","PHI",13,35,"False","outdoors","grass ",60,47,2,-10.5,"PHI",43,2022-10-30
+"202210300ram","SFO","LAR",1,1,4,4,0,0,0,0,0,0,"Robbie Gould",4,4,4,"SFO","LAR",31,14,"False","dome","matrixturf",72,45,0,-2.5,"LAR",42,2022-10-30
+"202210300ram","0","0",0,0,2,2,0,0,0,0,0,0,"Matt Gay",2,2,2,"SFO","LAR",31,14,"False","dome","matrixturf",72,45,0,-2.5,"LAR",42,2022-10-30
+"202210300sea","NYG","SEA",2,2,1,1,1,1,1,1,0,0,"Graham Gano",8,8,8,"NYG","SEA",13,27,"False","outdoors","fieldturf ",54,83,8,-3,"SEA",44.5,2022-10-30
+"202210300sea","SEA","NYG",2,2,3,3,1,1,0,0,1,1,"Jason Myers",11,11,11,"NYG","SEA",13,27,"False","outdoors","fieldturf ",54,83,8,-3,"SEA",44.5,2022-10-30
+"202210310cle","CIN","CLE",1,0,2,1,0,0,1,0,0,0,"Evan McPherson",1,1,1,"CIN","CLE",13,32,"False","outdoors","grass ",66,68,9,-3,"CIN",45,2022-10-31
+"202210310cle","CLE","CIN",2,1,3,3,0,0,0,0,2,1,"Cade York",8,8,8,"CIN","CLE",13,32,"False","outdoors","grass ",66,68,9,-3,"CIN",45,2022-10-31
+"202211030htx","HOU","PHI",1,1,2,2,1,1,0,0,0,0,"Ka'imi Fairbairn",5,5,5,"PHI","HOU",29,17,"False","retractable roof (closed)","astroturf",72,45,0,NA,"",NA,2022-11-03
+"202211030htx","0","0",0,0,3,3,0,0,0,0,0,0,"Jake Elliott",3,3,3,"PHI","HOU",29,17,"False","retractable roof (closed)","astroturf",72,45,0,NA,"",NA,2022-11-03
+"202211060atl","LAC","ATL",2,2,2,2,2,2,0,0,0,0,"Cameron Dicker",8,8,8,"LAC","ATL",20,17,"False","retractable roof (open)","fieldturf",72,45,0,NA,"",NA,2022-11-06
+"202211060atl","ATL","LAC",2,1,2,2,1,1,0,0,1,0,"Younghoe Koo",5,5,5,"LAC","ATL",20,17,"False","retractable roof (open)","fieldturf",72,45,0,NA,"",NA,2022-11-06
+"202211060chi","CHI","MIA",1,1,3,3,1,1,0,0,0,0,"Cairo Santos",6,6,6,"MIA","CHI",35,32,"False","outdoors","grass ",58,55,17,NA,"",NA,2022-11-06
+"202211060chi","MIA","CHI",1,0,5,5,1,0,0,0,0,0,"Jason Sanders",5,5,5,"MIA","CHI",35,32,"False","outdoors","grass ",58,55,17,NA,"",NA,2022-11-06
+"202211060cin","0","0",0,0,3,3,0,0,0,0,0,0,"Eddy Pineiro",3,3,3,"CAR","CIN",21,42,"False","outdoors","fieldturf ",68,57,11,NA,"",NA,2022-11-06
+"202211060cin","CIN","CAR",1,0,6,6,0,0,1,0,0,0,"Evan McPherson",6,6,6,"CAR","CIN",21,42,"False","outdoors","fieldturf ",68,57,11,NA,"",NA,2022-11-06
+"202211060crd","0","0",0,0,3,3,0,0,0,0,0,0,"Matt Prater",3,3,3,"SEA","ARI",31,21,"False","retractable roof (open)","grass ",72,45,0,NA,"",NA,2022-11-06
+"202211060crd","SEA","ARI",1,1,4,4,0,0,0,0,0,0,"Jason Myers",4,4,4,"SEA","ARI",31,21,"False","retractable roof (open)","grass ",72,45,0,NA,"",NA,2022-11-06
+"202211060det","0","0",0,0,1,1,0,0,0,0,0,0,"Michael Badgley",1,1,1,"GNB","DET",9,15,"False","dome","fieldturf ",72,45,0,NA,"",NA,2022-11-06
+"202211060det","GNB","DET",1,1,0,0,1,1,0,0,0,0,"Mason Crosby",3,3,3,"GNB","DET",9,15,"False","dome","fieldturf ",72,45,0,NA,"",NA,2022-11-06
+"202211060jax","JAX","LVR",3,2,3,3,0,0,0,0,0,0,"Riley Patterson",3,3,3,"LVR","JAX",20,27,"False","outdoors","grass ",81,72,14,NA,"",NA,2022-11-06
+"202211060jax","LVR","JAX",2,2,2,2,2,2,0,0,0,0,"Daniel Carlson",8,8,8,"LVR","JAX",20,27,"False","outdoors","grass ",81,72,14,NA,"",NA,2022-11-06
+"202211060kan","KAN","TEN",3,2,1,0,0,0,0,0,0,0,"Harrison Butker",0,0,0,"TEN","KAN",17,20,"True","outdoors","grass ",54,61,7,NA,"",NA,2022-11-06
+"202211060kan","TEN","KAN",1,1,2,2,0,0,1,1,0,0,"Randy Bullock",6,6,6,"TEN","KAN",17,20,"True","outdoors","grass ",54,61,7,NA,"",NA,2022-11-06
+"202211060nwe","NWE","IND",4,4,2,2,0,0,0,0,0,0,"Nick Folk",2,2,2,"IND","NWE",3,26,"False","outdoors","fieldturf ",78,56,13,NA,"",NA,2022-11-06
+"202211060nwe","IND","NWE",2,1,0,0,1,0,1,1,0,0,"Chase McLaughlin",4,4,4,"IND","NWE",3,26,"False","outdoors","fieldturf ",78,56,13,NA,"",NA,2022-11-06
+"202211060nyj","BUF","NYJ",2,1,2,2,0,0,0,0,2,1,"Tyler Bass",7,7,7,"BUF","NYJ",17,20,"False","outdoors","fieldturf ",69,81,17,NA,"",NA,2022-11-06
+"202211060nyj","NYJ","BUF",2,2,2,2,1,1,0,0,1,1,"Greg Zuerlein",10,10,10,"BUF","NYJ",17,20,"False","outdoors","fieldturf ",69,81,17,NA,"",NA,2022-11-06
+"202211060tam","LAR","TAM",2,2,1,1,2,2,0,0,0,0,"Matt Gay",7,7,7,"LAR","TAM",13,16,"False","outdoors","grass ",88,57,2,NA,"",NA,2022-11-06
+"202211060tam","TAM","LAR",4,3,1,1,0,0,0,0,0,0,"Ryan Succop",1,1,1,"LAR","TAM",13,16,"False","outdoors","grass ",88,57,2,NA,"",NA,2022-11-06
+"202211060was","ERROR - abbrev_team","MIN",1,1,2,2,0,0,1,1,0,0,"Joey Slye",6,6,6,"MIN","ERROR - abbrev_team",20,17,"False","outdoors","grass ",71,79,11,NA,"",NA,2022-11-06
+"202211060was","MIN","ERROR - abbrev_team",2,2,2,2,2,2,0,0,0,0,"Greg Joseph",8,8,8,"MIN","ERROR - abbrev_team",20,17,"False","outdoors","grass ",71,79,11,NA,"",NA,2022-11-06
+"202211070nor","BAL","NOR",2,2,3,3,1,1,1,1,0,0,"Justin Tucker",10,10,10,"BAL","NOR",27,13,"False","dome","sportturf",72,45,0,NA,"",NA,2022-11-07
+"202211070nor","NOR","BAL",2,2,1,1,0,0,0,0,0,0,"Wil Lutz",1,1,1,"BAL","NOR",27,13,"False","dome","sportturf",72,45,0,NA,"",NA,2022-11-07
+"202211100car","ATL","CAR",1,1,2,0,1,1,0,0,0,0,"Younghoe Koo",3,3,3,"ATL","CAR",15,25,"False","outdoors","grass ",61,88,12,NA,"",NA,2022-11-10
+"202211100car","CAR","ATL",4,4,2,1,1,1,3,3,0,0,"Eddy Pineiro",16,16,16,"ATL","CAR",15,25,"False","outdoors","grass ",61,88,12,NA,"",NA,2022-11-10
+"202211130buf","BUF","MIN",3,3,3,3,2,2,1,1,0,0,"Tyler Bass",13,13,13,"MIN","BUF",33,30,"True","outdoors","a_turf",38,85,11,NA,"",NA,2022-11-13
+"202211130buf","MIN","BUF",2,2,4,3,2,2,0,0,0,0,"Greg Joseph",9,9,9,"MIN","BUF",33,30,"True","outdoors","a_turf",38,85,11,NA,"",NA,2022-11-13
+"202211130chi","CHI","DET",1,1,4,3,1,1,0,0,0,0,"Cairo Santos",6,6,6,"DET","CHI",31,30,"False","outdoors","grass ",34,45,13,NA,"",NA,2022-11-13
+"202211130chi","DET","CHI",1,1,4,4,1,1,0,0,0,0,"Michael Badgley",7,7,7,"DET","CHI",31,30,"False","outdoors","grass ",34,45,13,NA,"",NA,2022-11-13
+"202211130gnb","GNB","DAL",2,1,4,4,1,1,0,0,1,0,"Mason Crosby",7,7,7,"DAL","GNB",28,31,"True","outdoors","grass ",33,53,8,NA,"",NA,2022-11-13
+"202211130gnb","0","0",0,0,4,4,0,0,0,0,0,0,"Brett Maher",4,4,4,"DAL","GNB",28,31,"True","outdoors","grass ",33,53,8,NA,"",NA,2022-11-13
+"202211130kan","0","0",0,0,4,3,0,0,0,0,0,0,"Harrison Butker",3,3,3,"JAX","KAN",17,27,"False","outdoors","grass ",33,56,7,NA,"",NA,2022-11-13
+"202211130kan","JAX","KAN",3,1,2,2,1,1,1,0,1,0,"Riley Patterson",5,5,5,"JAX","KAN",17,27,"False","outdoors","grass ",33,56,7,NA,"",NA,2022-11-13
+"202211130mia","MIA","CLE",2,2,5,3,2,2,0,0,0,0,"Jason Sanders",9,9,9,"CLE","MIA",17,39,"False","outdoors","grass ",85,48,7,NA,"",NA,2022-11-13
+"202211130mia","CLE","MIA",1,1,2,2,1,1,0,0,0,0,"Cade York",5,5,5,"CLE","MIA",17,39,"False","outdoors","grass ",85,48,7,NA,"",NA,2022-11-13
+"202211130nyg","HOU","NYG",3,3,1,1,2,2,1,1,0,0,"Ka'imi Fairbairn",11,11,11,"HOU","NYG",16,24,"False","outdoors","fieldturf ",50,58,15,NA,"",NA,2022-11-13
+"202211130nyg","NYG","HOU",1,1,3,3,0,0,0,0,0,0,"Graham Gano",3,3,3,"HOU","NYG",16,24,"False","outdoors","fieldturf ",50,58,15,NA,"",NA,2022-11-13
+"202211130oti","TEN","DEN",1,1,2,2,1,1,0,0,0,0,"Randy Bullock",5,5,5,"DEN","TEN",10,17,"False","outdoors","grass ",36,48,9,NA,"",NA,2022-11-13
+"202211130oti","DEN","TEN",1,1,1,1,0,0,0,0,0,0,"Brandon McManus",1,1,1,"DEN","TEN",10,17,"False","outdoors","grass ",36,48,9,NA,"",NA,2022-11-13
+"202211130pit","NOR","PIT",1,1,1,1,0,0,1,1,0,0,"Wil Lutz",5,5,5,"NOR","PIT",10,20,"False","outdoors","grass ",37,65,15,NA,"",NA,2022-11-13
+"202211130pit","PIT","NOR",4,2,2,2,3,2,1,0,0,0,"Matthew Wright",8,8,8,"NOR","PIT",10,20,"False","outdoors","grass ",37,65,15,NA,"",NA,2022-11-13
+"202211130rai","0","0",0,0,2,2,0,0,0,0,0,0,"Daniel Carlson",2,2,2,"IND","LVR",25,20,"False","dome","grass",72,45,0,NA,"",NA,2022-11-13
+"202211130rai","IND","LVR",3,2,1,1,0,0,0,0,0,0,"Chase McLaughlin",1,1,1,"IND","LVR",25,20,"False","dome","grass",72,45,0,NA,"",NA,2022-11-13
+"202211130ram","ARI","LAR",2,2,3,3,0,0,0,0,0,0,"Tristan Vizcaino",3,3,3,"ARI","LAR",27,17,"False","dome","matrixturf",72,45,0,NA,"",NA,2022-11-13
+"202211130ram","LAR","ARI",1,1,2,2,0,0,0,0,0,0,"Matt Gay",2,2,2,"ARI","LAR",27,17,"False","dome","matrixturf",72,45,0,NA,"",NA,2022-11-13
+"202211130sfo","LAC","SFO",3,3,1,1,2,2,1,1,0,0,"Cameron Dicker",11,11,11,"LAC","SFO",16,22,"False","outdoors","grass",57,38,6,NA,"",NA,2022-11-13
+"202211130sfo","SFO","LAC",3,3,2,1,3,3,0,0,0,0,"Robbie Gould",10,10,10,"LAC","SFO",16,22,"False","outdoors","grass",57,38,6,NA,"",NA,2022-11-13
+"202211130tam","SEA","TAM",1,1,1,1,0,0,0,0,1,1,"Jason Myers",6,6,6,"SEA","TAM",16,21,"False","outdoors","grass",54,71,9,NA,"",NA,2022-11-13
+"202211130tam","TAM","SEA",1,0,3,3,0,0,0,0,1,0,"Ryan Succop",3,3,3,"SEA","TAM",16,21,"False","outdoors","grass",54,71,9,NA,"",NA,2022-11-13
+"202211140phi","ERROR - abbrev_team","PHI",4,4,2,2,1,1,1,1,2,2,"Joey Slye",19,19,19,"ERROR - abbrev_team","PHI",32,21,"False","outdoors","grass ",43,45,6,NA,"",NA,2022-11-14
+"202211140phi","0","0",0,0,3,3,0,0,0,0,0,0,"Jake Elliott",3,3,3,"ERROR - abbrev_team","PHI",32,21,"False","outdoors","grass ",43,45,6,NA,"",NA,2022-11-14
+"202211170gnb","GNB","TEN",1,1,1,0,0,0,0,0,0,0,"Mason Crosby",0,0,0,"TEN","GNB",27,17,"False","outdoors","grass ",25,81,11,NA,"",NA,2022-11-17
+"202211170gnb","0","0",0,0,4,3,0,0,0,0,0,0,"Josh Lambo",3,3,3,"TEN","GNB",27,17,"False","outdoors","grass ",25,81,11,NA,"",NA,2022-11-17
+"202211200atl","CHI","ATL",2,1,3,3,0,0,1,1,1,0,"Cairo Santos",7,7,7,"CHI","ATL",24,27,"False","retractable roof (closed)","fieldturf",72,45,0,NA,"",NA,2022-11-20
+"202211200atl","ATL","CHI",2,2,3,3,0,0,1,1,1,1,"Younghoe Koo",12,12,12,"CHI","ATL",24,27,"False","retractable roof (closed)","fieldturf",72,45,0,NA,"",NA,2022-11-20
+"202211200buf","BUF","CLE",6,6,1,1,3,3,2,2,1,1,"Tyler Bass",23,23,23,"CLE","BUF",23,31,"False","dome","fieldturf ",72,45,0,NA,"",NA,2022-11-20
+"202211200buf","CLE","BUF",2,1,2,2,2,1,0,0,0,0,"Cade York",5,5,5,"CLE","BUF",23,31,"False","dome","fieldturf ",72,45,0,NA,"",NA,2022-11-20
+"202211200clt","0","0",0,1,2,2,0,0,0,0,0,0,"Jake Elliott",2,2,2,"PHI","IND",17,16,"False","retractable roof (closed)","fieldturf ",72,45,0,NA,"",NA,2022-11-20
+"202211200clt","IND","PHI",4,3,1,1,2,2,0,0,2,1,"Chase McLaughlin",12,12,12,"PHI","IND",17,16,"False","retractable roof (closed)","fieldturf ",72,45,0,NA,"",NA,2022-11-20
+"202211200den","DEN","LVR",4,3,1,1,0,0,0,0,0,0,"Brandon McManus",1,1,1,"LVR","DEN",22,16,"True","outdoors","grass ",49,23,11,NA,"",NA,2022-11-20
+"202211200den","LVR","DEN",4,3,1,1,1,1,1,0,2,2,"Daniel Carlson",14,14,14,"LVR","DEN",22,16,"True","outdoors","grass ",49,23,11,NA,"",NA,2022-11-20
+"202211200htx","ERROR - abbrev_team","HOU",3,3,2,2,0,0,0,0,0,0,"Joey Slye",2,2,2,"ERROR - abbrev_team","HOU",23,10,"False","retractable roof (closed)","astroturf",72,45,0,NA,"",NA,2022-11-20
+"202211200htx","HOU","ERROR - abbrev_team",1,1,1,1,1,1,0,0,0,0,"Ka'imi Fairbairn",4,4,4,"ERROR - abbrev_team","HOU",23,10,"False","retractable roof (closed)","astroturf",72,45,0,NA,"",NA,2022-11-20
+"202211200min","DAL","MIN",4,4,4,4,1,1,0,0,3,3,"Brett Maher",22,22,22,"DAL","MIN",40,3,"False","dome","sportturf",72,45,0,NA,"",NA,2022-11-20
+"202211200min","MIN","DAL",1,1,0,0,1,1,0,0,0,0,"Greg Joseph",3,3,3,"DAL","MIN",40,3,"False","dome","sportturf",72,45,0,NA,"",NA,2022-11-20
+"202211200nor","NOR","LAR",2,2,3,3,0,0,0,0,0,0,"Wil Lutz",3,3,3,"LAR","NOR",20,27,"False","dome","sportturf",72,45,0,NA,"",NA,2022-11-20
+"202211200nor","LAR","NOR",2,2,2,2,1,1,0,0,1,1,"Matt Gay",10,10,10,"LAR","NOR",20,27,"False","dome","sportturf",72,45,0,NA,"",NA,2022-11-20
+"202211200nwe","NYJ","NWE",1,1,0,0,0,0,1,1,0,0,"Greg Zuerlein",4,4,4,"NYJ","NWE",3,10,"False","outdoors","fieldturf ",42,35,2,NA,"",NA,2022-11-20
+"202211200nwe","NWE","NYJ",3,1,1,1,1,1,2,0,0,0,"Nick Folk",4,4,4,"NYJ","NWE",3,10,"False","outdoors","fieldturf ",42,35,2,NA,"",NA,2022-11-20
+"202211200nyg","DET","NYG",1,1,4,4,1,1,0,0,0,0,"Michael Badgley",7,7,7,"DET","NYG",31,18,"False","outdoors","fieldturf ",35,30,21,NA,"",NA,2022-11-20
+"202211200nyg","0","0",0,0,2,0,0,0,0,0,0,0,"Graham Gano",0,0,0,"DET","NYG",31,18,"False","outdoors","fieldturf ",35,30,21,NA,"",NA,2022-11-20
+"202211200pit","CIN","PIT",3,3,4,4,0,0,2,2,1,1,"Evan McPherson",17,17,17,"CIN","PIT",37,30,"False","outdoors","grass ",27,38,12,NA,"",NA,2022-11-20
+"202211200pit","PIT","CIN",3,3,3,3,2,2,1,1,0,0,"Matthew Wright",13,13,13,"CIN","PIT",37,30,"False","outdoors","grass ",27,38,12,NA,"",NA,2022-11-20
+"202211200rav","CAR","BAL",1,1,0,0,0,0,0,0,0,0,"Eddy Pineiro",0,0,0,"CAR","BAL",3,13,"False","outdoors","grass",36,24,2,NA,"",NA,2022-11-20
+"202211200rav","BAL","CAR",2,2,1,1,2,2,0,0,0,0,"Justin Tucker",7,7,7,"CAR","BAL",3,13,"False","outdoors","grass",36,24,2,NA,"",NA,2022-11-20
+"202211200sdg","KAN","LAC",3,3,3,3,2,2,0,0,1,1,"Harrison Butker",14,14,14,"KAN","LAC",30,27,"False","dome","matrixturf",72,45,0,NA,"",NA,2022-11-20
+"202211200sdg","LAC","KAN",2,2,3,3,1,1,1,1,0,0,"Cameron Dicker",10,10,10,"KAN","LAC",30,27,"False","dome","matrixturf",72,45,0,NA,"",NA,2022-11-20
+"202211210crd","SFO","ARI",1,1,5,5,0,0,0,0,0,0,"Robbie Gould",5,5,5,"SFO","ARI",38,10,"False","outdoors","grass",64,52,4,NA,"",NA,2022-11-21
+"202211210crd","ARI","SFO",1,1,1,1,0,0,1,1,0,0,"Matt Prater",5,5,5,"SFO","ARI",38,10,"False","outdoors","grass",64,52,4,NA,"",NA,2022-11-21
+"202211240dal","DAL","NYG",1,0,4,4,0,0,1,0,0,0,"Brett Maher",4,4,4,"NYG","DAL",20,28,"False","retractable roof (closed)","matrixturf",72,45,0,NA,"",NA,2022-11-24
+"202211240dal","NYG","DAL",2,2,2,2,0,0,1,1,1,1,"Graham Gano",11,11,11,"NYG","DAL",20,28,"False","retractable roof (closed)","matrixturf",72,45,0,NA,"",NA,2022-11-24
+"202211240det","BUF","DET",2,2,3,2,0,0,2,2,0,0,"Tyler Bass",10,10,10,"BUF","DET",28,25,"False","dome","fieldturf ",72,45,0,NA,"",NA,2022-11-24
+"202211240det","DET","BUF",2,1,2,2,1,0,0,0,1,1,"Michael Badgley",7,7,7,"BUF","DET",28,25,"False","dome","fieldturf ",72,45,0,NA,"",NA,2022-11-24
+"202211240min","MIN","NWE",2,2,4,3,2,2,0,0,0,0,"Greg Joseph",9,9,9,"NWE","MIN",26,33,"False","dome","sportturf",72,45,0,NA,"",NA,2022-11-24
+"202211240min","NWE","MIN",4,4,2,2,3,3,1,1,0,0,"Nick Folk",15,15,15,"NWE","MIN",26,33,"False","dome","sportturf",72,45,0,NA,"",NA,2022-11-24
+"202211270car","CAR","DEN",3,3,2,2,2,2,1,1,0,0,"Eddy Pineiro",12,12,12,"DEN","CAR",10,23,"False","outdoors","grass ",66,94,15,NA,"",NA,2022-11-27
+"202211270car","DEN","CAR",2,1,1,1,1,1,0,0,1,0,"Brandon McManus",4,4,4,"DEN","CAR",10,23,"False","outdoors","grass ",66,94,15,NA,"",NA,2022-11-27
+"202211270cle","CLE","TAM",2,1,2,2,1,0,0,0,1,1,"Cade York",7,7,7,"TAM","CLE",17,23,"True","outdoors","grass ",56,84,14,NA,"",NA,2022-11-27
+"202211270cle","TAM","CLE",1,1,2,2,0,0,1,1,0,0,"Ryan Succop",6,6,6,"TAM","CLE",17,23,"True","outdoors","grass ",56,84,14,NA,"",NA,2022-11-27
+"202211270crd","ARI","LAC",2,1,3,3,0,0,2,1,0,0,"Matt Prater",7,7,7,"LAC","ARI",25,24,"False","retractable roof (closed)","grass ",72,45,0,NA,"",NA,2022-11-27
+"202211270crd","LAC","ARI",1,1,2,2,0,0,0,0,0,0,"Cameron Dicker",2,2,2,"LAC","ARI",25,24,"False","retractable roof (closed)","grass ",72,45,0,NA,"",NA,2022-11-27
+"202211270jax","BAL","JAX",5,4,1,1,3,3,0,0,2,1,"Justin Tucker",15,15,15,"BAL","JAX",27,28,"False","outdoors","grass ",77,82,19,NA,"",NA,2022-11-27
+"202211270jax","JAX","BAL",2,2,2,2,0,0,0,0,0,0,"Riley Patterson",2,2,2,"BAL","JAX",27,28,"False","outdoors","grass ",77,82,19,NA,"",NA,2022-11-27
+"202211270kan","KAN","LAR",4,4,2,2,0,0,0,0,0,0,"Harrison Butker",2,2,2,"LAR","KAN",10,26,"False","outdoors","grass ",44,65,6,NA,"",NA,2022-11-27
+"202211270kan","LAR","KAN",1,1,1,1,0,0,1,1,0,0,"Matt Gay",5,5,5,"LAR","KAN",10,26,"False","outdoors","grass ",44,65,6,NA,"",NA,2022-11-27
+"202211270mia","HOU","MIA",1,1,0,0,1,1,0,0,0,0,"Ka'imi Fairbairn",3,3,3,"HOU","MIA",15,30,"False","outdoors","grass ",84,63,13,NA,"",NA,2022-11-27
+"202211270mia","MIA","HOU",3,3,3,3,0,0,0,0,0,0,"Jason Sanders",3,3,3,"HOU","MIA",15,30,"False","outdoors","grass ",84,63,13,NA,"",NA,2022-11-27
+"202211270nyj","CHI","NYJ",1,1,1,1,1,1,0,0,0,0,"Cairo Santos",4,4,4,"CHI","NYJ",10,31,"False","outdoors","fieldturf ",50,61,9,NA,"",NA,2022-11-27
+"202211270nyj","NYJ","CHI",2,1,4,4,0,0,0,0,2,1,"Greg Zuerlein",9,9,9,"CHI","NYJ",10,31,"False","outdoors","fieldturf ",50,61,9,NA,"",NA,2022-11-27
+"202211270oti","CIN","TEN",2,2,2,2,0,0,0,0,0,0,"Evan McPherson",2,2,2,"CIN","TEN",20,16,"False","outdoors","grass ",56,62,14,NA,"",NA,2022-11-27
+"202211270oti","TEN","CIN",4,3,1,1,4,3,0,0,0,0,"Caleb Shudak",10,10,10,"CIN","TEN",20,16,"False","outdoors","grass ",56,62,14,NA,"",NA,2022-11-27
+"202211270phi","GNB","PHI",2,2,4,3,2,2,0,0,0,0,"Mason Crosby",9,9,9,"GNB","PHI",33,40,"False","outdoors","grass ",62,86,24,NA,"",NA,2022-11-27
+"202211270phi","0","0",0,2,5,4,1,1,0,0,1,1,"Jake Elliott",12,12,12,"GNB","PHI",33,40,"False","outdoors","grass ",62,86,24,NA,"",NA,2022-11-27
+"202211270sea","SEA","LVR",2,2,4,4,0,0,0,0,0,0,"Jason Myers",4,4,4,"LVR","SEA",40,34,"True","outdoors","fieldturf ",44,67,8,NA,"",NA,2022-11-27
+"202211270sea","LVR","SEA",3,2,4,4,2,2,0,0,1,0,"Daniel Carlson",10,10,10,"LVR","SEA",40,34,"True","outdoors","fieldturf ",44,67,8,NA,"",NA,2022-11-27
+"202211270sfo","NOR","SFO",1,0,0,0,0,0,1,0,0,0,"Wil Lutz",0,0,0,"NOR","SFO",0,13,"False","outdoors","grass",59,63,2,NA,"",NA,2022-11-27
+"202211270sfo","SFO","NOR",2,2,1,1,1,1,1,1,0,0,"Robbie Gould",8,8,8,"NOR","SFO",0,13,"False","outdoors","grass",59,63,2,NA,"",NA,2022-11-27
+"202211270was","ERROR - abbrev_team","ATL",2,2,2,1,1,1,1,1,0,0,"Joey Slye",8,8,8,"ATL","ERROR - abbrev_team",13,19,"False","outdoors","grass ",46,97,9,NA,"",NA,2022-11-27
+"202211270was","ATL","ERROR - abbrev_team",3,2,1,1,0,0,2,2,1,0,"Younghoe Koo",9,9,9,"ATL","ERROR - abbrev_team",13,19,"False","outdoors","grass ",46,97,9,NA,"",NA,2022-11-27
+"202211280clt","IND","PIT",2,1,2,2,0,0,0,0,2,1,"Chase McLaughlin",7,7,7,"PIT","IND",24,17,"False","retractable roof (closed)","fieldturf ",72,45,0,NA,"",NA,2022-11-28
+"202211280clt","PIT","IND",3,3,1,1,0,0,0,0,0,0,"Matthew Wright",1,1,1,"PIT","IND",24,17,"False","retractable roof (closed)","fieldturf ",72,45,0,NA,"",NA,2022-11-28
