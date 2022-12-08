@@ -3,11 +3,12 @@
 class Player:
     """players class"""
 
-    def __init__(self, player_id=None, player=None, team=None, pos=None, average_standard_score=None):
+    def __init__(self, player_id=None, player=None, team=None, pos=None, photo=None, average_standard_score=None):
         self._player_id = player_id
         self._player = player
         self._team = team
         self._pos = pos
+        self._photo = photo
         self._average_standard_score = average_standard_score
 
     def get_player_id(self):
@@ -25,6 +26,10 @@ class Player:
     def get_pos(self):
         """get position"""
         return self._pos
+
+    def get_photo(self):
+        """get photo"""
+        return self._photo
 
     def get_average_standard_score(self):
         return self._average_standard_score

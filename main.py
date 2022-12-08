@@ -33,6 +33,7 @@ def details():
     # print(kicker)
     kickers_weeks = get_kickers_weeks(kicker)
     photo = request.args.get('photo')
+    player_photo = request.args.get('player_photo')
     # print(kickers_weeks)
     html = render_template('details.html',
                             player_id=player_id,
@@ -40,7 +41,8 @@ def details():
                            player=player,
                            kicker=kicker,
                            kickers_weeks=kickers_weeks,
-                           photo=photo)
+                           photo=photo,
+                           player_photo=player_photo)
     response = make_response(html)
     return response
 

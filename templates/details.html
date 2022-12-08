@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Player Stats</title>
+        <link href="/static/css/players.css" rel="stylesheet" type="text/css" media="all">
      </head>
 
     <br>
@@ -11,63 +12,44 @@
         <header>
             <h1>Player Stats for {{player}}</h1>
         </header>
-        <img src="https://www.pro-football-reference.com/req/20180910/images/headshots/{{player_id}}_2022.jpg">
+        <img class="img" src={{player_photo}}>
         <table>
             <tr>
-                <th>week</th>
-                <th>standard score</th>
-                <th>pass_cmp</th> 
-                <th>pass_att</th>
-                <th>pass_yds</th>
-                <th>pass_td</th>
-                <th>pass_int</th>
-                <th>pass_sacked</th>
-                <th>pass_sacked_yds</th>
-                <th>pass_long</th>
-                <th>pass_rating</th>
-                <th>rush_att</th>
-                <th>rush_yds</th>
-                <th>rush_td</th>
-                <th>rush_long</th>
-                <th>targets</th>
-                <th>rec</th>
-                <th>rec_yds</th>
-                <th>rec_td</th>
-                <th>rec_long</th>
-                <th>fumbles_lost</th>
-                <th>rush_scrambles</th>
-                <th>designed_rush_att</th>
-                <th>comb_pass_rush_play</th>
-                <th>comb_pass_play</th>
-                <th>comb_rush_play</th>
-                <th>Opponent_abbrev</th>
-                <th>two_point_conv</th>
-                <th>total_ret_td</th>
-                <th>offensive_fumble_recovery_td</th>
-                <th>pass_target_yds</th>
-                <th>pass_poor_throws</th>
-                <th>pass_blitzed</th>
-                <th>pass_hurried</th>
-                <th>rush_yds_before_contact</th>
-                <th>rush_yac</th>
-                <th>rush_broken_tackles</th>
-                <th>rec_air_yds</th>
-                <th>rec_yac</th>
-                <th>rec_drops</th>
-                <th>vis_team</th>
-                <th>home_team</th>
+                <th>Week</th>
+                <th>Standard Score</th>
+                <th>Team</th>
+                <th>Opponent</th>
+                <th>Passes Completed</th> 
+                <th>Passes Attempted</th>
+                <th>Passing Yards</th>
+                <th>Passing TDs</th>
+                <th>Passes Intercepted</th>
+                <th>Longest Completion</th>
+                <th>Passer Rating</th>
+                <th>Rushing Attempts</th>
+                <th>Rushing Yards</th>
+                <th>Rushing TDs</th>
+                <th>Longest Rush</th>
+                <th>Targets</th>
+                <th>Receptions</th>
+                <th>Receiving Yards</th>
+                <th>Receiving TDs</th>
+                <th>Longest Reception</th>
+                <th>Fumbles Lost</th>
+                <th>Two Point Conversions</th>
+                <th>Total Return TDs</th>
             </tr>
             {% for week in weeks: %}
                 <tr>
                     <td>{{week.get_week()}}</td>
                     <td>{{week.week_standard_score()}}</td>
+                    <td>{{week.get_Team_abbrev()}}</td>
+                    <td>{{week.get_Opponent_abbrev()}}</td>
                     <td>{{week.get_pass_cmp()}}</td>
                     <td>{{week.get_pass_att()}}</td>
                     <td>{{week.get_pass_yds()}}</td>
                     <td>{{week.get_pass_td()}}</td>
                     <td>{{week.get_pass_int()}}</td>
-                    <td>{{week.get_pass_sacked()}}</td>
-                    <td>{{week.get_pass_sacked_yds()}}</td>
                     <td>{{week.get_pass_long()}}</td>
                     <td>{{week.get_pass_rating()}}</td>
                     <td>{{week.get_rush_att()}}</td>
@@ -80,27 +62,8 @@
                     <td>{{week.get_rec_td()}}</td>
                     <td>{{week.get_rec_long()}}</td>
                     <td>{{week.get_fumbles_lost()}}</td>
-                    <td>{{week.get_rush_scrambles()}}</td>
-                    <td>{{week.get_designed_rush_att()}}</td>
-                    <td>{{week.get_comb_pass_rush_play()}}</td>
-                    <td>{{week.get_comb_pass_play()}}</td>
-                    <td>{{week.get_comb_rush_play()}}</td>
-                    <td>{{week.get_Opponent_abbrev()}}</td>
                     <td>{{week.get_two_point_conv()}}</td>
                     <td>{{week.get_total_ret_td()}}</td>
-                    <td>{{week.get_offensive_fumble_recovery_td()}}</td>
-                    <td>{{week.get_pass_target_yds()}}</td>
-                    <td>{{week.get_pass_poor_throws()}}</td>
-                    <td>{{week.get_pass_blitzed()}}</td>
-                    <td>{{week.get_pass_hurried()}}</td>
-                    <td>{{week.get_rush_yds_before_contact()}}</td>
-                    <td>{{week.get_rush_yac()}}</td>
-                    <td>{{week.get_rush_broken_tackles()}}</td>
-                    <td>{{week.get_rec_air_yds()}}</td>
-                    <td>{{week.get_rec_yac()}}</td>
-                    <td>{{week.get_rec_drops()}}</td>
-                    <td>{{week.get_vis_team()}}</td>
-                    <td>{{week.get_home_team()}}</td>
                 </tr>
             {% endfor %}
         </table>
@@ -110,25 +73,23 @@
         <header>
             <h1>Player Stats for {{kicker}}</h1>
         </header>
-        <img src={{photo}}>
+        <img class="img" src={{photo}}>
         <table>
             <tr>
-                <th>week</th>
-                <th>standard score</th>
-                <th>Off_abbrev</th>
-                <th>Def_abbrev</th>
-                <th>fga</th>
-                <th>fgm</th>
-                <th>xpa</th>
-                <th>xpm</th>
-                <th>fga_0_39</th>
-                <th>fgm_0_39</th>
-                <th>fga_40_49</th>
-                <th>fgm_40_49</th>
-                <th>fga_50</th>
-                <th>fgm_50</th>
-                <th>vis_team</th>
-                <th>home_team</th>
+                <th>Week</th>
+                <th>Standard Score</th>
+                <th>Team</th>
+                <th>Opponent</th>
+                <th>FGA</th>
+                <th>FGM</th>
+                <th>XPA</th>
+                <th>XPM</th>
+                <th>FGA (0-39 yards)</th>
+                <th>FGM (0-39 yards)</th>
+                <th>FGA (40-49 yards)</th>
+                <th>FGM (40-49 yards)</th>
+                <th>FGA (50+ yards)</th>
+                <th>FGM (50+ yards)</th>
             </tr>
             {% for week in kickers_weeks: %}
                 <tr>
@@ -146,8 +107,6 @@
                     <td>{{week.get_fgm_40_49()}}</td>
                     <td>{{week.get_fga_50()}}</td>
                     <td>{{week.get_fgm_50()}}</td>
-                    <td>{{week.get_vis_team()}}</td>
-                    <td>{{week.get_home_team()}}</td>
                 </tr>
             {% endfor %}
         </table>

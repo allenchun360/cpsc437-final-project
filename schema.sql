@@ -16,7 +16,8 @@
     player_id text primary key,
     pos text not null,
     player text not null,
-    team text not null
+    team text not null,
+    photo image not null
 );
 
     create table offense_players_weeks (
@@ -45,7 +46,7 @@
     comb_pass_rush_play integer not null,
     comb_pass_play integer not null,
     comb_rush_play integer not null,
-    -- Team_abbrev text not null,
+    Team_abbrev text not null,
     Opponent_abbrev text not null,
     two_point_conv integer not null,
     total_ret_td integer not null,

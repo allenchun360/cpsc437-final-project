@@ -24,7 +24,7 @@ def get_all_players():
         with sqlite3.connect(DATABASE_URL, isolation_level=None,
                                 uri=True) as connection:
             with closing(connection.cursor()) as cursor:
-                query = "SELECT player_id, player, team, pos FROM players"
+                query = "SELECT player_id, player, team, pos, photo FROM players"
                 cursor.execute(query)
                 row = cursor.fetchone()
                 # player_table = []
@@ -36,7 +36,7 @@ def get_all_players():
                 while row is not None:
                     average_score = average_standard_score(str(row[0]))
                     player = Player(player_id=str(row[0]), player=str(row[1]), team=str(row[2]),
-                                        pos=str(row[3]), average_standard_score=average_score)
+                                        pos=str(row[3]), photo=row[4], average_standard_score=average_score)
                     if str(row[3]) == 'QB':
                         qb.append(player)
                     elif str(row[3]) == 'RB' or str(row[3]) == 'FB':

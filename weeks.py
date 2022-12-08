@@ -43,7 +43,8 @@ class Weeks:
                 rec_drops,
                 vis_team,
                 home_team,
-                week):
+                week,
+                Team_abbrev=None):
         self._player_id = player_id
         self._pass_cmp = pass_cmp
         self._pass_att = pass_att
@@ -69,6 +70,7 @@ class Weeks:
         self._comb_pass_rush_play = comb_pass_rush_play
         self._comb_pass_play = comb_pass_play
         self._comb_rush_play = comb_rush_play
+        self._Team_abbrev = Team_abbrev
         self._Opponent_abbrev = Opponent_abbrev
         self._two_point_conv = two_point_conv
         self._total_ret_td = total_ret_td
@@ -162,6 +164,9 @@ class Weeks:
 
     def get_comb_rush_play(self):
         return self._comb_rush_play
+
+    def get_Team_abbrev(self):
+        return self._Team_abbrev
 
     def get_Opponent_abbrev(self):
         return self._Opponent_abbrev

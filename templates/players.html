@@ -21,8 +21,8 @@
                 {% for row in qbs: %}
                     <tr>
                         <td>
-                            <img src="https://www.pro-football-reference.com/req/20180910/images/headshots/{{row.get_player_id()}}_2022.jpg">
-                            <a href="details?player_id={{row.get_player_id()}}&player={{row.get_player()}}">{{row.get_player()}}</a>
+                            <img class="img" src={{row.get_photo()}}>
+                            <a href="details?player_photo={{row.get_photo()}}&player={{row.get_player()}}&player_id={{row.get_player_id()}}">{{row.get_player()}}</a>
                         </td>
                         <td>{{row.get_team()}}</td>
                         <td>{{row.get_average_standard_score()}}</td>
@@ -43,8 +43,8 @@
                 {% for row in rbs: %}
                     <tr>
                         <td>
-                            <img src="https://www.pro-football-reference.com/req/20180910/images/headshots/{{row.get_player_id()}}_2022.jpg">
-                            <a href="details?player_id={{row.get_player_id()}}&player={{row.get_player()}}">{{row.get_player()}}</a>
+                            <img class="img" src={{row.get_photo()}}>
+                            <a href="details?player_photo={{row.get_photo()}}&player={{row.get_player()}}&player_id={{row.get_player_id()}}">{{row.get_player()}}</a>
                         </td>
                         <td>{{row.get_team()}}</td>
                         <td>{{row.get_average_standard_score()}}</td>
@@ -65,8 +65,8 @@
                 {% for row in wrs: %}
                     <tr>
                         <td>
-                            <img src="https://www.pro-football-reference.com/req/20180910/images/headshots/{{row.get_player_id()}}_2022.jpg">
-                            <a href="details?player_id={{row.get_player_id()}}&player={{row.get_player()}}">{{row.get_player()}}</a>
+                            <img class="img" src={{row.get_photo()}}>
+                            <a href="details?player_photo={{row.get_photo()}}&player={{row.get_player()}}&player_id={{row.get_player_id()}}">{{row.get_player()}}</a>
                         </td>
                         <td>{{row.get_team()}}</td>
                         <td>{{row.get_average_standard_score()}}</td>
@@ -87,8 +87,8 @@
                 {% for row in tes: %}
                     <tr>
                         <td>
-                            <img src="https://www.pro-football-reference.com/req/20180910/images/headshots/{{row.get_player_id()}}_2022.jpg">
-                            <a href="details?player_id={{row.get_player_id()}}&player={{row.get_player()}}">{{row.get_player()}}</a>
+                            <img class="img" src={{row.get_photo()}}>
+                            <a href="details?player_photo={{row.get_photo()}}&player={{row.get_player()}}&player_id={{row.get_player_id()}}">{{row.get_player()}}</a>
                         </td>
                         <td>{{row.get_team()}}</td>
                         <td>{{row.get_average_standard_score()}}</td>

@@ -9,13 +9,14 @@ def get_weeks(player_id):
         with sqlite3.connect(DATABASE_URL, isolation_level=None,
                                 uri=True) as connection:
             with closing(connection.cursor()) as cursor:
-                query = "SELECT player_id, pass_cmp, pass_att, pass_yds, pass_td, pass_int, pass_sacked, pass_sacked_yds, pass_long, pass_rating, rush_att, rush_yds, rush_td, rush_long, targets, rec, rec_yds, rec_td, rec_long, fumbles_lost, rush_scrambles, designed_rush_att, comb_pass_rush_play, comb_pass_play, comb_rush_play, Opponent_abbrev, two_point_conv, total_ret_td, offensive_fumble_recovery_td, pass_target_yds, pass_poor_throws, pass_blitzed, pass_hurried, rush_yds_before_contact, rush_yac, rush_broken_tackles, rec_air_yds, rec_yac, rec_drops, vis_team, home_team, week FROM offense_players_weeks WHERE player_id = ? ORDER BY week"
+                query = "SELECT player_id, pass_cmp, pass_att, pass_yds, pass_td, pass_int, pass_sacked, pass_sacked_yds, pass_long, pass_rating, rush_att, rush_yds, rush_td, rush_long, targets, rec, rec_yds, rec_td, rec_long, fumbles_lost, rush_scrambles, designed_rush_att, comb_pass_rush_play, comb_pass_play, comb_rush_play, team, Opponent_abbrev, two_point_conv, total_ret_td, offensive_fumble_recovery_td, pass_target_yds, pass_poor_throws, pass_blitzed, pass_hurried, rush_yds_before_contact, rush_yac, rush_broken_tackles, rec_air_yds, rec_yac, rec_drops, vis_team, home_team, week FROM offense_players_weeks NATURAL JOIN (SELECT player_id, team from players) WHERE player_id = ? ORDER BY week"
                 cursor.execute(query, [player_id])
                 row = cursor.fetchone()
                 weeks_table = []
                 # print(player_id)
 
                 while row is not None:
+                    # print(row[25])
                     week = Weeks(player_id=str(row[0]),
                                     pass_cmp=row[1],
                                     pass_att=row[2],
@@ -41,28 +42,26 @@ def get_weeks(player_id):
                                     comb_pass_rush_play=row[22],
                                     comb_pass_play=row[23],
                                     comb_rush_play=row[24],
-                                    # Team_abbrev=row[25],
-                                    Opponent_abbrev=row[25],
-                                    two_point_conv=row[26],
-                                    total_ret_td=row[27],
-                                    offensive_fumble_recovery_td=row[28],
-                                    pass_target_yds=row[29],
-                                    pass_poor_throws=row[30],
-                                    pass_blitzed=row[31],
-                                    pass_hurried=row[32],
-                                    rush_yds_before_contact=row[33],
-                                    rush_yac=row[34],
-                                    rush_broken_tackles=row[35],
-                                    rec_air_yds=row[36],
-                                    rec_yac=row[37],
-                                    rec_drops=row[38],
-                                    vis_team=str(row[39]),
-                                    home_team=str(row[40]),
-                                    week=str(row[41]))
+                                    Team_abbrev=row[25],
+                                    Opponent_abbrev=row[26],
+                                    two_point_conv=row[27],
+                                    total_ret_td=row[28],
+                                    offensive_fumble_recovery_td=row[29],
+                                    pass_target_yds=row[30],
+                                    pass_poor_throws=row[31],
+                                    pass_blitzed=row[32],
+                                    pass_hurried=row[33],
+                                    rush_yds_before_contact=row[34],
+                                    rush_yac=row[35],
+                                    rush_broken_tackles=row[36],
+                                    rec_air_yds=row[37],
+                                    rec_yac=row[38],
+                                    rec_drops=row[39],
+                                    vis_team=str(row[40]),
+                                    home_team=str(row[41]),
+                                    week=str(row[42]))
                     weeks_table.append(week)
                     row = cursor.fetchone()
-
-                # print(weeks_table)
 
                 return weeks_table
                 
